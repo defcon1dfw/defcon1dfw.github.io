@@ -1,0 +1,18 @@
+---
+layout: page
+title: Contact Us
+---
+
+## 24/7 Emergency
+
+If you are experiencing an emergency call us anytime: 1-800-0000
+
+## Email Us
+
+Email Contact Coming Soon...
+
+## Follow Us On Social Media
+
+<a href="#"><span class="bi-facebook m-2" style="font-size: 4rem;"></span></a>
+<a href="#"><span class="bi-twitter m-2" style="font-size: 4rem;"></span></a>
+<a href="#"><span class="bi-google m-2" style="font-size: 4rem;"></span></a>

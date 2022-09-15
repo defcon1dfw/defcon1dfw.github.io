@@ -1,0 +1,13 @@
+<div class="accordion-item">
+  <h2 class="accordion-header" id="panelsStayOpen-heading{{ include.accordNum }}">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#panelsStayOpen-collapse{{ include.accordNum }}" aria-expanded="false" aria-controls="panelsStayOpen-collapse{{ include.accordNum }}">
+      <h2>{{ include.accordTitle }}</h2>
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapse{{ include.accordNum }}" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading{{ include.accordNum }}" data-bs-parent="#accordionFlushExample">
+    <div class="accordion-body">
+      {{ include.content | markdownify }}
+    </div>
+  </div>
+</div>

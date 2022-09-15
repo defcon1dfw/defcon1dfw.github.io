@@ -1,0 +1,78 @@
+// ---------------------------
+// Cards and Selection Badges
+// ---------------------------
+
+.card {
+    @include all-browser-polygon-clip-path-pent(0 0, 0 100%, 100% 100%, 100% 20%, 80% 0);
+    height: 20rem;
+    max-width: 39rem;
+    min-width: 23rem;
+    border: solid 1px $quad-color;
+    background: $primary-color;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.card-img {
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.2;
+}
+.card ul {
+    list-style: none;
+}
+.card li {
+    @include boxing-mixin(0, 0);
+    color: $tri-color;
+    font-size: 1.3rem;
+}
+.card li::before {
+    font-family:'Bootstrap-icons';
+    content:'\F26D';
+    margin:0 10px 0 -15px;
+    color: green;
+    font-weight: bold;
+}
+.card h2 {
+    padding: 4px;
+}
+.card-body {
+    padding: 3px;
+}
+.card-fold {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 5px 1px $secondary-color;
+    @include shiny-gold-gradient(45deg);
+    width: 20%;
+    height: 20%;
+    border-radius: 1px;
+}
+
+// Option Badge cards
+
+.sevice-home-options-container a {
+    @include gridium(center, center);
+    @include rounded-border();
+    @include all-browser-animation(pulse, 2s, infinite);
+    @include flat-gold-gradient(45deg);
+    @include boxing-mixin(0, 0, auto);
+    width: clamp(10rem, 10vw, 14rem);
+    height: clamp(10rem, 10vw, 14rem);
+    font-weight: 600;
+}
+.sevice-home-options-container a:hover .service-home-icon-text,
+.sevice-home-options-container a:hover .service-home-icon {
+    color: $primary-color !important;
+}
+.service-home-icon,
+.service-home-icon-text {
+    @include boxing-mixin(0, 0);
+    color: $secondary-accent-color;
+}
+.service-home-icon {
+    font-size: 4em;
+}
+.service-home-icon-text {
+    font-size: 1.25rem;
+}

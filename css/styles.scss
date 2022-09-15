@@ -1,0 +1,74 @@
+---
+---
+
+// Main SCSS
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+
+// Base SCSS
+$primaryImage: "{{ site.urlPrefix }}assets/img/polar-camo-hex.svg";
+@import "base/global-variables";
+@import "base/global-mixins";
+@import "base/global-tags";
+// Layouts SCSS
+@import "layout/grid-sections";
+@import "layout/navigations";
+// Components SCSS
+@import "components/animations";
+@import "components/cards";
+@import "components/banners";
+@import "components/clip-effects";
+
+
+.btn:hover {
+  color: $primary-color;
+  border-color: $accent-color;
+}
+.btn {
+  @include flexium(center, center);
+  @include flat-gold-gradient(45deg);
+  border-radius: 5px;
+  color: $secondary-accent-color;
+  font-family:"Chakra Petch", sans-serif;
+  font-size: 16pt;
+  font-weight: bolder;
+}
+
+hr.rounded {
+  border-top: 5px solid $accent-color;
+  border-radius: 5px;
+}
+
+// Containers
+
+.container p {
+  @include boxing-mixin(0, 0);
+  padding-bottom: 15px;
+}
+.read-container {
+  @include boxing-mixin(0.5rem, 0, auto);
+  max-width: 56.25rem;
+}
+
+.flex-shrink-0 a {
+  font-size: 1.4rem !important;
+}
+
+// -------------------------------------
+// MASTER Page Media Width Collapse
+// -------------------------------------
+
+// Adjust grids on screen width
+@media (max-width: 64rem) {
+  .side-nav-docs {
+    padding: 1.8rem;
+    position: relative;
+    top: 0;
+    border: none;
+  }
+  // _grid-sections.scss
+  // @include dynamic-images-collapse();
+  @include dynamic-grids-collapse();
+  // @include dynamic-height(auto, auto);
+}

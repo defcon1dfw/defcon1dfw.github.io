@@ -1,0 +1,112 @@
+// ----------------------------------
+// Grids and Dynamic Page Dimensions
+// ----------------------------------
+
+// Heights
+
+@mixin dynamic-height($h) {
+
+  min-height: $h;
+  @include flexium(center, center);
+  overflow: hidden;
+}
+
+.dy-page-100vh {
+  @include dynamic-height(100vh);
+}
+.dy-page-70vh {
+  @include dynamic-height(70vh);
+}
+.dy-page-50vh {
+  @include dynamic-height(50vh);
+}
+
+// Auto Grids
+
+.test-grid {
+  @include gridium(center, center, 0.5rem);
+  grid-template-columns: auto auto;
+  text-align: left;
+}
+.test-grid-one {
+  @include gridium(center, center, 5px);
+  @include boxing-mixin(0, 0);
+  grid-template-columns: 31.25rem 31.25rem;
+  text-align: center;
+}
+.test-grid-two {
+  @include gridium(center, center, 5px);
+  @include boxing-mixin(0, 0);
+  grid-template-columns: 15.6rem 15.6rem 15.6rem 15.6rem;
+  text-align: center;
+}
+// Side nav grids
+.test-grid-three {
+  @include gridium(center, start);
+  grid-template-columns: 1fr 6fr 1fr;
+}
+
+.grid-top {
+  @include gridium(center, start, 0.5rem);
+}
+
+.flex-block-pop,
+.flex-block-pop-inverse {
+  // height: 70vh;
+  // height: inherit;
+  max-width: 100%;
+  @include flexium(center, center); 
+  flex-grow: 1;
+  flex-basis: 0;
+  flex-wrap: wrap;
+}
+
+// ---------------------
+// Images
+// ---------------------
+
+.test-50-container {
+  max-width: 50%;
+  overflow: hidden;
+}
+.test-50-container img {
+  max-height: $all-force-max-height - 250rem;
+  height: 70vh;
+  padding: 0;
+  transition: transform .5s ease-in-out;
+}
+.test-50-container:hover img {
+  transform: scale(1.2);
+}
+.flexium-basic {
+  @include flexium(center, center);
+}
+
+@mixin dynamic-grids-collapse() {
+  .test-grid,
+  .test-grid-one,
+  .test-grid-three {
+    grid: auto / auto;
+    grid-gap: 0;
+    height: auto;
+  }
+  .test-grid-two {
+    grid: auto auto / auto auto;
+    grid-gap: 0.5rem;
+    @include boxing-mixin(0, 0.5rem, auto);
+  }
+  .flex-block-pop {
+    flex-direction: column;
+  }
+  .flex-block-pop-inverse {
+    flex-direction: column-reverse;
+  }
+  .test-50-container {
+    max-width: 100%;
+    height: 100%;
+  }
+  .test-50-container img {
+    min-width: 100vw;
+    height: auto;
+  }
+}

@@ -1,0 +1,99 @@
+// Mixins
+
+@mixin boxing-mixin-i($padding, $margin, $autoFlag: 0 0 0) {
+    padding: $padding !important;
+    margin: $margin $autoFlag !important;
+}
+
+@mixin boxing-mixin($padding, $margin, $autoFlag: 0 0 0) {
+    padding: $padding;
+    margin: $margin $autoFlag;
+}
+
+@mixin gridium($x, $y, $gap: 0) {
+    display: grid;
+    justify-content: $x;
+    align-items: $y;
+    grid-gap: $gap;
+}
+
+@mixin flexium($x, $y) {
+    display: flex;
+    justify-content: $x;
+    align-items: $y;
+}
+
+@mixin text-gold-gradient($deg) {
+    background-image: linear-gradient($deg, $secondary-accent-color, $accent-color, $secondary-accent-color);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+@mixin shiny-gold-gradient($deg) {
+    border: solid 1px $accent-color !important;
+    background: linear-gradient($deg, #bf953f, $accent-color, #b38728, $accent-color, #aa771c) !important;
+}
+
+@mixin flat-gold-gradient($deg) {
+    border: solid 1px $accent-color !important;
+    background: linear-gradient($deg, $secondary-accent-color, $accent-color, $secondary-accent-color) !important;
+}
+
+@mixin rounded-border() {
+    border: solid 2px $accent-color;
+    border-radius: 10px;
+}
+
+// All Browser Compound
+
+@mixin all-browser-animation($name, $time, $duration) {
+    -webkit-animation: $name $time $duration linear;
+    -moz-animation: $name $time $duration linear;
+    -o-animation: $name $time $duration linear;
+    animation: $name $time $duration linear;
+}
+
+@mixin all-browser-boxshadow($dimensions, $color) {
+    -webkit-box-shadow: $dimensions $color;
+    -moz-box-shadow: $dimensions $color;
+    -o-box-shadow: $dimensions $color;
+    box-shadow: $dimensions $color;
+}
+
+@mixin all-browser-polygon-clip-path-rect($a1, $a2, $a3, $a4) {
+    -webkit-clip-path: polygon($a1, $a2, $a3, $a4);
+    -moz-clip-path: polygon($a1, $a2, $a3, $a4);
+    -o-clip-path: polygon($a1, $a2, $a3, $a4);
+    clip-path: polygon($a1, $a2, $a3, $a4);
+}
+
+@mixin all-browser-polygon-clip-path-pent($a1, $a2, $a3, $a4, $a5) {
+    -webkit-clip-path: polygon($a1, $a2, $a3, $a4, $a5);
+    -moz-clip-path: polygon($a1, $a2, $a3, $a4, $a5);
+    -o-clip-path: polygon($a1, $a2, $a3, $a4, $a5);
+    clip-path: polygon($a1, $a2, $a3, $a4, $a5);
+}
+
+@mixin all-browser-polygon-clip-path-hexa($a1, $a2, $a3, $a4, $a5, $a6) {
+    -webkit-clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6);
+    -moz-clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6);
+    -o-clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6);
+    clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6);
+}
+
+@mixin all-browser-polygon-clip-path-sept($a1, $a2, $a3, $a4, $a5, $a6, $a7) {
+    -webkit-clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6, $a7);
+    -moz-clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6, $a7);
+    -o-clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6, $a7);
+    clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6, $a7);
+}
+
+@mixin all-browser-polygon-clip-path-octa($a1, $a2, $a3, $a4, $a5, $a6, $a7, $a8) {
+    -webkit-clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6, $a7, $a8);
+    -moz-clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6, $a7, $a8);
+    -o-clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6, $a7, $a8);
+    clip-path: polygon($a1, $a2, $a3, $a4, $a5, $a6, $a7, $a8);
+}

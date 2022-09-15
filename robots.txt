@@ -1,0 +1,9 @@
+---
+---
+
+User-agent: *
+Disallow: /404
+Disallow: /legal/terms-and-conditions
+Disallow: /legal/privacy-policy
+Disallow: /about
+Disallow: /*page-

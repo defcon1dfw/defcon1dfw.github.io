@@ -1,0 +1,58 @@
+
+// Themes
+
+// {% if site.mainTheme=="dark" %}
+
+$primary-color: rgb(63, 63, 63);
+$secondary-color: rgb(46, 46, 46);
+$tri-color: whitesmoke;
+$quad-color: rgb(223, 223, 223);
+$op-color: rgba(0, 0, 0, 0.8);
+
+// {% else %}
+
+$primary-color: white;
+$secondary-color: rgb(63, 63, 63);
+$tri-color: black;
+$quad-color: rgb(223, 223, 223);
+$op-color: rgba(255, 255, 255, 0.8);
+
+// {% endif %}
+
+$accent-color: rgb(243, 203, 24);
+$secondary-accent-color: rgb(110, 77, 11);
+$tri-accent-color: rgb(180, 142, 17);
+
+.primary-color {
+    background-color: $primary-color;
+    // opacity: 1 !important;
+}
+.primary-color p {
+    color: $secondary-color !important;
+}
+.secondary-color {
+    background-color: $secondary-color;
+    // opacity: 1 !important;
+}
+.secondary-color p {
+    color: $primary-color !important;
+}
+.tri-color {
+    background-color: $tri-color;
+}
+.accent-color {
+    background-color: $accent-color;
+}
+
+// All sections and divisions should not expand vertically beyound this value. 
+$all-force-max-height: 300rem;
+
+// Primary Navigation Variables Used By all other sections and containers for proper alignment
+$nav-height: 5rem;
+$call-now-height: 1.75rem;
+$sticky-container-height: $nav-height + $call-now-height;
+
+// MUST import navigation before
+$home-banner-height: calc(100vh - #{$sticky-container-height});
+$page-banner-height: calc(15rem - #{$sticky-container-height});
+$banner-min-height: 500px;

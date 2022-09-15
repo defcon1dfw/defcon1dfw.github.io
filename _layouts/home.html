@@ -1,0 +1,109 @@
+---
+layout: primary
+---
+
+<div class="overlay-clip-container-div secondary-color">
+    <div class="overlay-clip-div clip-middle-path">
+        <div class="home-banner-div-background"></div>
+    </div>
+    <div class="home-banner-div">
+        <h1><span class="home-banner-fat-text">{{ site.dbaOneName }}</span><br>{{ site.dbaTwoName }}</h1>
+        <div class="test-grid-two sevice-home-options-container no-select-txt">
+
+            <a href="{{site.urlPrefix}}service/water" draggable="false">
+                <span class="service-home-icon bi-water flip-x"></span>
+                <span class="service-home-icon-text">WATER</span>
+            </a>
+
+            <a href="{{site.urlPrefix}}service/fire" draggable="false">
+                <span class="service-home-icon bi-fire flip-y"></span>
+                <span class="service-home-icon-text">FIRE</span>
+            </a>
+
+            <a href="{{site.urlPrefix}}service/mold" draggable="false">
+                <span class="service-home-icon bi-virus spin"></span>
+                <span class="service-home-icon-text">MOLD</span>
+            </a>
+
+            <a href="{{site.urlPrefix}}service/reconstruction" draggable="false">
+                <span class="service-home-icon bi-hammer twitch"></span>
+                <span class="service-home-icon-text">RE-CONSTRUCT</span>
+            </a>
+
+        </div>
+        {% include particles.html %}
+    </div>
+</div>
+
+<div class="overlay-clip-container-div">
+
+    <div class="overlay-clip-div clip-right-top"></div>
+
+    <div class="container dy-page-100vh">
+
+        <div>
+            <!--googleoff: all-->
+            {% include content-header.html %}
+            <!--googleon: all-->
+            <div class="row text-start">
+
+                <div class="col-xl-4">
+                    <div class="tile card mx-auto">
+                        <img src="{{site.urlPrefix}}assets/img/polar-camo-hex.svg" class="card-img" alt="...">
+                        <div class="card-fold"></div>
+                        <div class="card-img-overlay card-body d-flex flex-column">
+                            <h2 class="card-title pricing-card-title">Family Owned</h2>
+                            <ul class="mt-2">
+                                <li>We take pride in our work.</li>
+                                <li>We care about our customers.</li>
+                                <li>We give more one on one support.</li>
+                            </ul>
+                            <a href="{{site.urlPrefix}}about" type="button"
+                                class="mt-auto btn btn-lg mx-auto btn-block">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="tile card mx-auto">
+                        <img src="{{site.urlPrefix}}assets/img/polar-camo-hex.svg" class="card-img" alt="...">
+                        <div class="card-fold"></div>
+                        <div class="card-img-overlay card-body d-flex flex-column">
+                            <h2 class="card-title pricing-card-title">Fully Certified</h2>
+                            <ul class="mt-2">
+                                <li>We are IICRC Certified.</li>
+                                <li>We follow all laws and regulations.</li>
+                                <li>We always prioritize safety first.</li>
+                            </ul>
+                            <a href="{{site.urlPrefix}}validation/certification" type="button"
+                                class="mt-auto btn btn-lg mx-auto btn-block">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="tile card mx-auto">
+                        <img src="{{site.urlPrefix}}assets/img/polar-camo-hex.svg" class="card-img" alt="...">
+                        <div class="card-fold"></div>
+                        <div class="card-img-overlay card-body d-flex flex-column">
+                            <h2 class="card-title pricing-card-title">Out Mission</h2>
+                            <ul class="mt-2">
+                                <li>We work with all insurance.</li>
+                                <li>We sort out claims quickly.</li>
+                                <li>We pay close attention to detail.</li>
+                            </ul>
+                            <a href="{{site.urlPrefix}}validation/insurance" type="button"
+                                class="mt-auto btn btn-lg mx-auto btn-block">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div>
+    {{ content }}
+</div>

@@ -1,0 +1,27 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en" class="page-fade-in">
+
+{% include head.html %}
+
+<body>
+  <header id="primary-top-nav-header-id no-select-txt">
+    {% include top-nav.html %}
+  </header>
+
+  <main id="primary-main-content-footer-id">
+    {{ content }}
+  </main>
+
+  <footer id="primary-bot-nav-footer-id">
+    {% include bottom-nav.html %}
+    {% include cookie-consent.html %}
+  </footer>
+
+  <script type="text/javascript" src="{{ site.urlPrefix }}assets/js/script-loader.js"></script>
+
+</body>
+
+</html>

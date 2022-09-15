@@ -1,0 +1,27 @@
+// ---------------
+// Clip Effects
+// ---------------
+
+.overlay-clip-container-div {
+  @include gridium(center, center);
+  min-height: calc(100vh - #{$sticky-container-height});
+  max-height: $all-force-max-height;
+  background-color: $secondary-color;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.overlay-clip-div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: $primary-color;
+  padding: 0;
+}
+
+.clip-right-top {
+  @include all-browser-polygon-clip-path-sept(0 100%, 75% 70%, 100% 25%, 100% 100%, 0 100%, 0 20%, 48% 41%);
+}
+.clip-middle-path {
+  @include all-browser-polygon-clip-path-octa(10% 100%, 66% 100%, 89% 0, 100% 0, 100% 100%, 0 100%, 0 0, 35% 0);
+}

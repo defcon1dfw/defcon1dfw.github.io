@@ -1,0 +1,95 @@
+// --------------
+// Navigations
+// --------------
+
+// For Nav Bar spacer for page content
+.sticky-container-div {
+  min-height: $sticky-container-height;
+  overflow: hidden;
+}
+
+.navbar {
+  @include boxing-mixin(0, 0);
+  display: inline-block;
+  min-height: $nav-height;
+  background-color: $secondary-color;
+  box-shadow: 0 1px 5px -1px $secondary-accent-color;
+  font-family: "Chakra Petch", sans-serif;
+}
+.navbar-brand {
+  @include boxing-mixin(0, 0);
+  @include flexium(center, center);
+  height: $nav-height;
+}
+.navbar-brand img {
+  @include boxing-mixin(2px, 0);
+  height: 100%;
+  // height: clamp($nav-height/1.5, 10vw, $nav-height);
+  width: auto;
+}
+.navbar-nav {
+  align-items: flex-end;
+}
+.nav-item {
+  padding: 0px 6px 0px;
+  font-size: 17pt;
+}
+.active {
+  color: $tri-accent-color !important;
+}
+// Hide large text when screen width is too small
+@media (max-width: 350px) {
+  .navbar-brand p {
+    display: none;
+  }
+}
+
+// footer
+
+footer {
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+.footer-disclaimer {
+  font-size: 10pt;
+}
+
+// Accordion for faq
+// TODO: This need to be refactored to not be depended on bootstrap.
+
+.accordion-item,
+.accordion-button,
+.accordion-header {
+  background-color: $primary-color !important;
+  color: $tri-color !important;
+}
+.accordion-button:hover {
+  background-color: $quad-color !important;
+}
+.accordion-item h2 {
+  @include boxing-mixin(0, 0);
+  font-size: 18pt;
+}
+
+// Side navs for services
+
+.side-nav-container {
+    background-color: $secondary-color;
+    height: 100%;
+}
+
+.side-nav-docs {
+  @include boxing-mixin(0.4rem, 0, auto);
+  position: sticky;
+  position: -webkit-sticky;
+  top: $sticky-container-height;
+
+  // max-height: 100%;
+  width: 100%;
+  // overflow-y: scroll;
+  border-right: solid 1px $secondary-color;
+}
+
+.side-nav-content {
+  position: relative;
+}

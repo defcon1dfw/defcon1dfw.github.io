@@ -1,0 +1,94 @@
+// ---------------
+// Banners
+// ---------------
+
+.page-banner-div {
+  @include gridium(center, center);
+  height: $page-banner-height;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.page-banner-div h1 {
+  @include boxing-mixin(0, 0);
+}
+
+.home-banner-div {
+  @include gridium(center, center, 5px);
+  position: relative;
+  height: $home-banner-height;
+  max-height: $all-force-max-height;
+  min-height: $banner-min-height;
+  text-align: center;
+  overflow: hidden;
+}
+.home-banner-div h1 {
+  @include boxing-mixin-i(10px, 0, auto);
+  @include rounded-border();
+  width: auto;
+  color: $primary-color;
+  background-color: $secondary-color;
+}
+.home-banner-fat-text {
+  @include text-gold-gradient(45deg);
+  font-size: clamp(38px, 7vw, 48px);
+}
+.home-banner-div .btn {
+  @include all-browser-animation(pulse, 2s, infinite);
+  width: 220px;
+  height: 70px;
+}
+
+.home-banner-div-background {
+  background-image: url($primaryImage);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: $home-banner-height;
+  min-height: $banner-min-height;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+// Used inside the primary top navigation to hold the phone number.
+.call-now-banner-div {
+  @include flexium(center, center);
+  width: 100%;
+  height: $call-now-height;
+
+  background: linear-gradient(
+    45deg,
+    $secondary-color,
+    $secondary-accent-color,
+    $tri-accent-color,
+    $secondary-accent-color,
+    $secondary-color
+  );
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+// Terms of use consent
+
+.show-consent-banner {
+  border-top: solid $accent-color 2px;
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  background-color: $primary-color;
+  text-align: left;
+  color: $tri-color;
+}
+.hide-consent-banner {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  visibility: hidden;
+  height: 0;
+  text-align: center;
+}

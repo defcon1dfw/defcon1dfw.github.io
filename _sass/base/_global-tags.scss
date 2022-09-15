@@ -1,0 +1,57 @@
+// Primary Default Tag Settings
+
+* {
+    @include boxing-mixin(0, 0);
+}
+html {
+    overflow-y: scroll;
+}
+html,
+body {
+    background-color: $primary-color;
+    max-width: 100%;
+    max-width: 100vw;
+}
+
+@mixin fontify() {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include fontify();
+}
+
+h1,
+h2 {
+    color: $tri-accent-color;
+}
+
+h1 {
+    font-size: clamp(1.7rem, 6vw, 2.7rem);
+}
+
+h2 {
+    font-size: clamp(1.3rem, 6vw, 2.3rem);
+}
+
+a {
+    color: $tri-accent-color;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $accent-color;
+    cursor: pointer;
+}
+p,
+li {
+    color: $tri-color;
+    font-size: 1.25rem;
+    // list-style-image:url('/assets/img/247-sm.png');
+}

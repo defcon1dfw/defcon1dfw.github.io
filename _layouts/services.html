@@ -1,0 +1,72 @@
+---
+layout: primary
+---
+
+<div class="test-grid-three">
+
+    <!--googleoff: all-->
+    <div class="side-nav-container">
+        <div class="side-nav-docs">
+
+            <div class="flex-shrink-0 mb-4 mt-4">
+
+                <ul class="list-unstyled ps-0">
+
+                    <li class="mb-1 text-center">
+                        <h2>Services</h2>
+                    </li>
+
+                    <hr class="rounded">
+
+                    <li class="mb-1">
+                        <div class="collapse show" id="primary-services-collapse">
+                            <ul class="btn-toggle-nav list-unstyled">
+                                {% for item in site.pages reversed %}
+                                {% if item.path contains 'service/' %}
+                                <li>
+                                    <a {% if page.name==item.name %} class="active pulse" {% else %} {% endif %}
+                                        href="{{ site.urlPrefix }}{{ item.path | remove : '.md' }}">{{ item.name |
+                                        remove :
+                                        '.md' | capitalize }}</a>
+                                </li>
+                                {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </li>
+
+                    <hr class="rounded">
+
+                    <li class="mb-1">
+                        <div class="collapse show" id="primary-services-collapse">
+                            <ul class="btn-toggle-nav list-unstyled">
+                                {% for item in site.pages %}
+                                {% if item.path contains 'validation' %}
+                                <li>
+                                    <a {% if page.name==item.name %} class="active pulse" {% else %} {% endif %}
+                                        href="{{ site.urlPrefix }}{{ item.path | remove : '.md' }}">{{ item.name |
+                                        remove :
+                                        '.md' | capitalize }}</a>
+                                </li>
+                                {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <!--googleon: all-->
+
+    <div class="side-nav-content">
+        {% include content-header.html %}
+
+        <div class="read-container mb-2">
+            {{ content }}
+        </div>
+    </div>
+
+</div>
