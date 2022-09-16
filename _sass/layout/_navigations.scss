@@ -24,7 +24,6 @@
 .navbar-brand img {
   @include boxing-mixin(2px, 0);
   height: 100%;
-  // height: clamp($nav-height/1.5, 10vw, $nav-height);
   width: auto;
 }
 .navbar-nav {
@@ -92,4 +91,17 @@ footer {
 
 .side-nav-content {
   position: relative;
+}
+
+.shrink-nav {
+  min-height: $shrink-nav-height;
+}
+
+.shrink-nav .navbar {
+  min-height: $shrink-nav-height;
+}
+
+.shrink-nav .navbar-brand {
+  max-height: $shrink-nav-height;
+  min-height: $shrink-nav-height;
 }

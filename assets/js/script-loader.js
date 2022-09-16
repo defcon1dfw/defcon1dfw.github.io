@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
     cookieConsentJs.src = "{{ site.urlPrefix }}assets/js/cookie-consent.js";
     cookieConsentJs.type = "text/javascript"
 
-    fadein.src = "{{ site.urlPrefix }}assets/js/fadein.js";
+    fadein.src = "{{ site.urlPrefix }}assets/js/scroll-events.js";
     fadein.type = "text/javascript"
 
     document.body.appendChild(boostrapMinJs);

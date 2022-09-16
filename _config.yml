@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 navTheme: dark
 mainTheme: light
-navLogo: assets/img/nav-logo.svg
+navLogo: assets/img/primary-logo.png
 urlPrefix: /
 
 dbaOneName: "DEFCON 1"
