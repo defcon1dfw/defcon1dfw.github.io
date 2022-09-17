@@ -1,6 +1,5 @@
 let tileElementsArray = document.querySelectorAll(".tile");
 let headerElementsArray = document.querySelectorAll(".master-nav");
-var lastScrollTop = 0;
 
 console.log(tileElementsArray);
 window.addEventListener('scroll', fadeIn);
@@ -21,7 +20,9 @@ function fadeIn() {
 function shrinkHeader() {
     var st = window.pageYOffset || document.documentElement.scrollTop;
     var elem = headerElementsArray[0];
-    if (st > lastScrollTop) {
+    var scrollTop = 80;
+
+    if (st > scrollTop) {
         // downscroll code
         elem.classList.add("shrink-nav");
     } else {
