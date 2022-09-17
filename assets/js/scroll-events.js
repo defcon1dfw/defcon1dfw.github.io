@@ -20,12 +20,12 @@ function fadeIn() {
 function shrinkHeader() {
     var st = window.pageYOffset || document.documentElement.scrollTop;
     var elem = headerElementsArray[0];
-    var scrollTop = 80;
+    var scrollTop = 70;
 
     if (st > scrollTop) {
         // downscroll code
         elem.classList.add("shrink-nav");
-    } else {
+    } else if (st <= 0) {
         // upscroll code
         elem.classList.remove("shrink-nav");
     }
