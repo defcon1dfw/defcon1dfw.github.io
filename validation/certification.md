@@ -7,7 +7,7 @@ title: "We Are 100% Certified!"
 
 <div markdown=1>
 
-## {{ site.dbaName }} holds the following certifications:
+## {{ site.dbaOneName }} holds the following certifications:
 
 - IICRC Water Damage Restoration Technician (WRT)
 - IICRC Applied Structural Drying Technician (ASD)
