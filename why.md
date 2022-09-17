@@ -23,7 +23,7 @@ We ourselves have been a victim to a fire and a flood. Restoring your property a
 
 We pride ourselves on extensive knowledge in the insurance industry as well. By completing most of each project from start to finish we are able to minimize overhead and complete your project at the lowest possible cost and in the shortest amount of time. This sets us apart from the large, nationally run competition.
 
-We are committed to being available when you need us most in an emergency. Our primary goal is providing you with maximum quality and customer service at your residence or commercial property. Read about us [here]({{ site.urlPrefix }}about) to learn more about our business, and check out our FAQ page [here]({{ site.urlPrefix }}faq) for more questions you might have. You can also drop us a line on our contact page]
+We are committed to being available when you need us most in an emergency. Our primary goal is providing you with maximum quality and customer service at your residence or commercial property. Read about us [here]({{ site.urlPrefix }}about) to learn more about our business, and check out our FAQ page [here]({{ site.urlPrefix }}faq) for more questions you might have.
 
 </div>
 
