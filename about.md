@@ -19,9 +19,9 @@ While specializing in water mitigation, we also handle services ranging from cle
 
 <div markdown=1>
 
-## Who Are We?
+## Who We Are
 
-{{ site.dbaOneName }} {{ site.dbaTwoName }} is a Texas family and veteran owned business. We always strive to exceed your expectations and provide the best possible experience! Your home or business can count on us. We will take care of you quickly, professionally and with the care and respect you deserve.
+{{ site.dbaOneName }} {{ site.dbaTwoName }}, formerly Delta Restoration Services of north central DFW is now a Texas family and veteran owned business. We always strive to exceed your expectations and provide the best possible experience! Your home or business can count on us. We will take care of you quickly, professionally and with the care and respect you deserve.
 
 </div>
 
@@ -33,7 +33,7 @@ We are in the business of problem solving. We analyze the issues at hand quickly
 
 In other words, the moment you contact {{ site.dbaOneName }} {{ site.dbaTwoName }} the process of getting back to normal has already been initiated. Assessing the situation as soon as possible then deploying a modernized and strategic process to get back to normal or better. We are always ready for your emergency, we are your front line defense against property damage.
 
-Lear more about us [here]({{ site.urlPrefix }}why) and why you should use our services.
+Learn more about us [here]({{ site.urlPrefix }}why) and why you should use our services.
 
 </div>
 
