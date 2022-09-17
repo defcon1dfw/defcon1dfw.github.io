@@ -50,6 +50,9 @@ hr.rounded {
   @include boxing-mixin(0.5rem, 0, auto);
   max-width: 56.25rem;
 }
+.read-container h1, h2, h3, h4, h5 {
+  @include heading-padding();
+}
 
 .flex-shrink-0 a {
   font-size: 1.4rem !important;

@@ -18,6 +18,10 @@ body {
     font-weight: bold;
 }
 
+@mixin heading-padding() {
+    padding-top: 1.2rem;
+}
+
 h1,
 h2,
 h3,
