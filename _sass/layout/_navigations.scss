@@ -82,7 +82,7 @@ footer {
   @include boxing-mixin(0.4rem, 0, auto);
   position: sticky;
   position: -webkit-sticky;
-  top: $sticky-container-height;
+  top: $shrink-nav-height;
 
   // max-height: 100%;
   width: 100%;
