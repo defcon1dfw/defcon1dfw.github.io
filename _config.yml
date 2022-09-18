@@ -31,6 +31,8 @@ mainTheme: light
 navLogo: assets/img/primary-logo.png
 urlPrefix: /
 
+domainName: defcon1dfw.com
+
 dbaOneName: "DEFCON 1"
 dbaTwoName: "Restoration Services"
 
