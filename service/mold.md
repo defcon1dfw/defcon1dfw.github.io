@@ -27,7 +27,7 @@ Unfortunately, even the smallest of mold infestations in the basement can lead t
 - Sever property damage.
 - In some cases mold can be dangerous and cause health issues.
 
-## Defcon 1 Steps For Mold Restoration
+## {{ site.dbaOneName }} Steps For Mold Restoration
 
 1. Assess and Isolate issues to implement the most efficient process.
 2. Suit Up

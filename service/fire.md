@@ -19,7 +19,7 @@ After a fire has caused damage to your home or business, its residual effects ca
 
 Our fire restoration services include cleaning and removing smoke damage, making structural repairs, and cleaning and protecting your company’s belongings. Many fire damages are also accompanied by losses due to water and chemicals from firefighting efforts, and we provide water damage cleanup, drying, and restoration services.
 
-## Defcon 1 Steps For Fire Restoration
+## {{ site.dbaOneName }}'s 1 Steps For Fire Restoration
 
 1. Assess and Isolate issues to implement the most efficient process.
 2. Get the official go ahead from a licensed authority.
