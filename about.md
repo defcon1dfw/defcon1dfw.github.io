@@ -9,7 +9,7 @@ title: "About Us"
 
 ## About Us And What We Do
 
-{{ site.dbaOneName }} {{ site.dbaTwoName }} is a damage restoration and mitigation company. We provide several services for residential and commercial properties across the Dallas FortWorth Texas metroplex.
+{{ site.dbaOneName }} {{ site.dbaTwoName }} is a damage mitigation and restoration company. We provide several services for residential and commercial properties across the DFW metroplex and surrounding areas.
 
 No job is too extravagant or too miniscule for {{ site.dbaOneName }} {{ site.dbaTwoName }}. It’s never a convenient time when damage hurts your home or business. As water restoration experts, we will respond to your call with speed and knowledge.
 
