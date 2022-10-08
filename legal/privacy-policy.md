@@ -11,14 +11,6 @@ This Privacy Policy describes our policies and procedures on the collection, use
 
 We use your personal data to provide and improve the Service. By using this service, you agree to the collection and use of information in accordance with this Privacy Policy.
 
-**{{ site.dbaOneName}} {{ site.dbaTwoName }} does NOT operate outside of Texas. However, this site may be visible outside of Texas borders do to our hosting conditions. We CANNOT provide services to anyone outside of Texas.** {{ site.dbaOneName}} {{ site.dbaTwoName }} is NOT responsible for any links or explicit content leading outside of {{ site.domainName }}.
-
-## personal data collected:
-- Name
-- City, State, County, or Zip Code
-- Phone Number
-- Email
-
 ## Google Analytics and Google Ads
 
 Google Analytics mainly uses first-party cookies to report on visitor (aka. user) interactions on Google Analytics customers’ websites. Users may disable cookies or delete any individual cookie.
