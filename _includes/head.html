@@ -10,10 +10,6 @@
     <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
     {% endif %}
 
-    {% if site.author %}
-    <meta name="author" content="{{ site.author }}">
-    {% endif %}
-
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">
     {% endif %}
