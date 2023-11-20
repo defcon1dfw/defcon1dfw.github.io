@@ -7,7 +7,7 @@ title: Contact Us
 
 If you are experiencing an emergency call us anytime: 940-240-0911
 
-<div class="test-50-container flexium-basic">
+<div class="flexium-basic">
 <img src="assets/img/always-open.png">
 </div>
 
