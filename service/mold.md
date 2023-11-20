@@ -9,7 +9,7 @@ title: "Mold Damage Restoration"
 
 ## {{ page.title }}
 
-When mold appears after disaster strikes your home or business {{ dbaOneName }} {{ dbaTwoName }} is at maximum readiness 24/7 for your emergency. We have the response you want.
+When mold appears after disaster strikes your home or business {{ site.dbaOneName }} {{ site.dbaTwoName }} is at maximum readiness 24/7 for your emergency. We have the response you want.
 
 ## When Mold Disaster Strikes.
 
