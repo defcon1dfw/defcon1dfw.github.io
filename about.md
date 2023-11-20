@@ -7,13 +7,13 @@ title: "About Us"
 
 <div markdown=1>
 
-## About Us And What We Do
+## What We Do
 
 {{ site.dbaOneName }} {{ site.dbaTwoName }} is a damage mitigation and restoration company. We provide several services for residential and commercial properties across the DFW metroplex and surrounding areas.
 
-No job is too extravagant or too miniscule for {{ site.dbaOneName }} {{ site.dbaTwoName }}. It’s never a convenient time when damage hurts your home or business. As water restoration experts, we will respond to your call with speed and knowledge.
+No job is too extravagant or too minuscule for {{ site.dbaOneName }} {{ site.dbaTwoName }}. It’s never a convenient time when damage hurts your home or business. As water restoration experts, we will respond to your call with speed and knowledge.
 
-While specializing in water mitigation, we also handle services ranging from cleaning your property and contents to reconstruction after a fire. We will even help you select the new decor.
+While specializing in water mitigation, we also handle services ranging from cleaning your property to reconstruction after a fire. We will even help you select new decor for your new estate.
 
 </div>
 
@@ -21,7 +21,7 @@ While specializing in water mitigation, we also handle services ranging from cle
 
 ## Who We Are
 
-{{ site.dbaOneName }} {{ site.dbaTwoName }}, formerly Delta Restoration Services of North Central DFW is now a Texas family and veteran owned business. We always strive to exceed your expectations and provide the best possible experience! Your home or business can count on us. We will take care of you quickly, professionally and with the care and respect you deserve.
+{{ site.dbaOneName }} {{ site.dbaTwoName }}, formerly Delta Restoration Services of North Central DFW, is now a Texas family and veteran-owned business. We strive to exceed your expectations and provide the best possible experience! Your home, or business can count on us when disaster strikes. We will take care of your estate quickly, professionally, and with the care and respect you deserve.
 
 </div>
 
@@ -29,9 +29,9 @@ While specializing in water mitigation, we also handle services ranging from cle
 
 ## When Disaster Impacts Your Property
 
-We are in the business of problem solving. We analyze the issues at hand quickly and identify the most effective steps to resolve the issues stopping your family or business from moving forward.
+We are in the business of problem solving, we analyze the issues at hand quickly and identify the most effective steps to resolve the obstacles stopping your family or business from moving forward.
 
-In other words, the moment you contact {{ site.dbaOneName }} {{ site.dbaTwoName }} the process of getting back to normal has already been initiated. Assessing the situation as soon as possible then deploying a modernized and strategic process to get back to normal or better. We are always ready for your emergency, we are your front line defense against property damage.
+{{ site.dbaOneName }} {{ site.dbaTwoName }} will initiate the restoration process as soon as you call. Assessing the situation as soon as possible then deploying a modernized and strategic process to get back to normal or better. We are always ready for your emergency, we are your front line defense against property damage.
 
 Learn more about us [here]({{ site.urlPrefix }}why) and why you should use our services.
 

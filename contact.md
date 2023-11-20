@@ -7,9 +7,9 @@ title: Contact Us
 
 If you are experiencing an emergency call us anytime: 940-240-0911
 
-## Email Us
-
-Email Contact Coming Soon...
+<div class="test-50-container flexium-basic">
+<img src="assets/img/always-open.png">
+</div>
 
 ## Follow Us On Social Media
 
