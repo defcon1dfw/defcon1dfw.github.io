@@ -7,6 +7,8 @@ title: Contact Us
 
 If you are experiencing an emergency call us anytime: 940-240-0911
 
+Alternate phone number: 817-505-8112
+
 <div class="flexium-basic">
 <img src="assets/img/always-open.png">
 </div>
