@@ -53,16 +53,17 @@
 
 .sevice-home-options-container a {
 
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
 
     @include gridium(center, center);
     @include rounded-border();
-    @include all-browser-animation(pulse, 2s, infinite);
+    // @include all-browser-animation(pulse, 2s, infinite);
     @include flat-gold-gradient(45deg);
     @include boxing-mixin(0, 0, auto);
 
-    width: 100px;
-    height: 100px;
+    width: 221px;
+    height: 120px;
 
     width: clamp(10rem, 10vw, 14rem);
     height: clamp(10rem, 10vw, 14rem);
@@ -74,6 +75,7 @@
 }
 .service-home-icon,
 .service-home-icon-text {
+    display: block;
     @include boxing-mixin(0, 0);
     color: $secondary-accent-color;
 }
