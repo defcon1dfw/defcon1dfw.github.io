@@ -16,8 +16,8 @@ dbaOneName: "DEFCON 1"
 dbaTwoName: "Restoration Services"
 
 # Build settings
-# plugins:
-#   - jekyll-sitemap
+plugins:
+  - jekyll-sitemap
 #   - jekyll-seo-tag
 
 yt_url_base: "https://youtube.com/"
