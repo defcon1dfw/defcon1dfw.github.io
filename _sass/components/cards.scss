@@ -52,11 +52,18 @@
 // Option Badge cards
 
 .sevice-home-options-container a {
+
+    display: block;
+
     @include gridium(center, center);
     @include rounded-border();
     @include all-browser-animation(pulse, 2s, infinite);
     @include flat-gold-gradient(45deg);
     @include boxing-mixin(0, 0, auto);
+
+    width: 100px;
+    height: 100px;
+
     width: clamp(10rem, 10vw, 14rem);
     height: clamp(10rem, 10vw, 14rem);
     font-weight: 600;
