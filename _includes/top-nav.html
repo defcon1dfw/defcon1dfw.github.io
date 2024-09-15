@@ -5,7 +5,7 @@
     <div class=" navbar navbar-expand-lg navbar-{{ site.navTheme }} fixed-top no-select-txt"">
       <div class="container">
 
-        <a class="navbar-brand" href="{{site.urlPrefix}}" draggable="false">
+        <a class="navbar-brand" href="{{site.url}}" draggable="false">
           <img src="{{site.urlPrefix}}{{site.navLogo}}" alt="LOGO IMG Not Found">
         </a>
 
@@ -19,12 +19,17 @@
 
             <li class="nav-item">
               <a {% if page.name=="index.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
-                href="{{site.urlPrefix}}" draggable="false">Home <span class="bi-house"></span></a>
+                href="{{site.url}}" draggable="false">Home <span class="bi-house"></span></a>
             </li>
 
             <li class="nav-item">
               <a {% if page.name=="contact.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
                 href="{{site.urlPrefix}}contact" draggable="false">Contact <span class="bi-phone"></span> </a>
+            </li>
+
+            <li class="nav-item">
+              <a {% if page.name=="blog.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
+                href="{{site.urlPrefix}}blog" draggable="false">Blog <span class="bi-card-heading"></span> </a>
             </li>
 
             <li class="nav-item dropdown" draggable="false">

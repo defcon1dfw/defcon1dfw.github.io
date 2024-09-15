@@ -8,14 +8,17 @@ $primaryImage: "/assets/img/polar-camo-hex.svg";
 @import "base/global-variables",
         "base/global-mixins",
         "base/global-tags";
+
 // Layouts SCSS
 @import "layout/grid-sections",
         "layout/navigations";
+
 // Components SCSS
-@import "components/animations";
-@import "components/cards";
-@import "components/banners";
-@import "components/clip-effects";
+@import "components/animations",
+        "components/cards",
+        "components/banners",
+        "components/clip-effects",
+        "components/headers";
 
 .btn:hover {
   color: $primary-color;
@@ -71,4 +74,8 @@ hr.rounded {
   // @include dynamic-images-collapse();
   @include dynamic-grids-collapse();
   // @include dynamic-height(auto, auto);
+}
+
+.main-container {
+  min-height: $page-min-height;
 }

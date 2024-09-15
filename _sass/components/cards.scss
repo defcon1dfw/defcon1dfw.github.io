@@ -76,3 +76,46 @@
 .service-home-icon-text {
     font-size: 1.25rem;
 }
+
+
+.post-card {
+    width: 100%;
+    height: 10rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: .5rem;
+
+    border-top: 1px solid black;
+}
+
+.post-card p {
+    font-size: 16pt;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.post-card:hover {
+    background-color: whitesmoke;
+}
+
+.post-card-item {
+    width: calc(100% / 2);
+    height: 100%;
+}
+
+.post-card-item-img {
+    width: auto;
+    height: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.post-card-date {
+    font-size: 12pt !important;
+    font-style: italic;
+}
