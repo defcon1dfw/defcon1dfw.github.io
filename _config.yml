@@ -13,10 +13,14 @@ navLogo: assets/img/primary-logo.png
 dbaOneName: "DEFCON 1"
 dbaTwoName: "Restoration Services"
 
+defaultAuthor: Defcon1Dfw
+
+copy: "© 2024 Copyright: defcon1dfw.com"
+
 # Build settings
 plugins:
   - jekyll-sitemap
-#   - jekyll-seo-tag
+  - jekyll-seo-tag
 
 yt_url_base: "https://youtube.com/"
 yt_url_watch: "https://www.youtube.com/embed/"

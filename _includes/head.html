@@ -1,55 +1,31 @@
 <head>
-    <!-- Primary Meta Tags -->
-    <!-- <meta charset="utf-8"> -->
+    <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noarchive">
+    <meta http-equiv="content-language" content="en">
 
-    {% if site.description %}
-    <meta name="description" content="{{ page.description | default: site.description }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}" />
-    <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
+    {% seo %}
+
+    {% if page.videoId && site.yt_img_url_base %}
+    <meta property="og:image" content="{{ site.yt_img_url_base }}{{ page.videoId }}/0.jpg" />
+    {% else %}
+
+        {% if page.imgUrl %}
+            <meta property="og:image" content="{{ site.url }}{{ page.imgUrl }}" />
+        {% else %}
+            <meta property="og:image" content="{{ site.url }}/assets/img/primary-logo.png" />
+        {% endif %}
+
     {% endif %}
-
-    {% if site.author %}
-    <meta name="author" content="{{ site.author }}">
+    {% if page.author %}
+    {% else %}
+    <meta property="author" content="{{ site.defaultAuthor }}" />
     {% endif %}
-
-    {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">
+    {% if page.twitterUser %}
+    <meta property="twitter:creator" content="{{ site.twitterUser }}" />
     {% endif %}
-
-    {% if page.url %}
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    {% endif %}
-
-    {% assign type = "website" %}
-
-    <meta property="og:type" content="{{ type }}" />
-    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
-
-    {% if page.is_post %}
-    <meta name="robots" content="index, follow">
-    <meta property="og:site_name" content="{{ site.title }}" />
-    {% endif %}
-
-    <!-- Title -->
-    {% if site.title %}
-    <meta name="twitter:title" content="{{ page.title | default: site.title }}" />
-    <meta property="og:title" content="{{ page.title | default: site.title }}" />
-    <title>
-        {{ page.title | default: site.title }}
-    </title>
-    {% endif %}
-
-    <!-- Page Links and Script -->
-    <link rel="icon" href="{{site.urlPrefix}}assets/img/nav-logo.svg">
-    <link href="{{site.urlPrefix}}css/boostrap/bootstrap.min.css" rel="stylesheet">
-    <link href="{{site.urlPrefix}}css/styles.css" rel="stylesheet">
-
-    <!-- {% if layout.primary-css %}
-    {% for css in layout.primary-css %}
-    <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
-    {% endif %} -->
-
+    <link rel="stylesheet" href="/assets/css/boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" type="img/x-icon" href="/favicon.ico">
 </head>

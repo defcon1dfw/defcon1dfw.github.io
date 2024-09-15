@@ -2,40 +2,40 @@
 layout: primary
 ---
 
-<div class="overlay-clip-container-div secondary-color">
-    <div class="overlay-clip-div clip-middle-path">
-        <div class="home-banner-div-background"></div>
+<div class="overlay-clip-container-div secondary-color" draggable="false">
+    <div class="overlay-clip-div clip-middle-path" draggable="false">
+        <div class="home-banner-div-background" draggable="false"></div>
     </div>
-    {% include particles.html %}
-    <div class="home-banner-div">
+    <!-- {% include particles.html %} -->
+    <div class="home-banner-div" draggable="false">
         <h1><span class="home-banner-fat-text">{{ site.dbaOneName }}</span><br>{{ site.dbaTwoName }}</h1>
-        <div class="test-grid-two sevice-home-options-container no-select-txt">
+        <div class="test-grid-two sevice-home-options-container no-select-txt" draggable="false">
 
-            <a href="{{site.urlPrefix}}service/water" draggable="false">
-                <span class="service-home-icon bi-water flip-x"></span>
-                <span class="service-home-icon-text">WATER</span>
+            <a href="{{site.urlPrefix}}service/water" rel="noopener noreferrer" draggable="false">
+                <span class="service-home-icon bi-water flip-x" draggable="false"></span>
+                <span class="service-home-icon-text" draggable="false">WATER</span>
             </a>
 
-            <a href="{{site.urlPrefix}}service/fire" draggable="false">
-                <span class="service-home-icon bi-fire flip-y"></span>
-                <span class="service-home-icon-text">FIRE</span>
+            <a href="{{site.urlPrefix}}service/fire" rel="noopener noreferrer" draggable="false">
+                <span class="service-home-icon bi-fire flip-y" draggable="false"></span>
+                <span class="service-home-icon-text" draggable="false">FIRE</span>
             </a>
 
-            <a href="{{site.urlPrefix}}service/mold" draggable="false">
-                <span class="service-home-icon bi-virus spin"></span>
-                <span class="service-home-icon-text">MOLD</span>
+            <a href="{{site.urlPrefix}}service/mold" rel="noopener noreferrer" draggable="false">
+                <span class="service-home-icon bi-virus spin" draggable="false"></span>
+                <span class="service-home-icon-text" draggable="false">MOLD</span>
             </a>
 
-            <a href="{{site.urlPrefix}}service/reconstruction" draggable="false">
-                <span class="service-home-icon bi-hammer twitch"></span>
-                <span class="service-home-icon-text">RE-CONSTRUCT</span>
+            <a href="{{site.urlPrefix}}service/reconstruction" rel="noopener noreferrer" draggable="false">
+                <span class="service-home-icon bi-hammer twitch" draggable="false"></span>
+                <span class="service-home-icon-text" draggable="false">RE-CONSTRUCT</span>
             </a>
 
         </div>
     </div>
 </div>
 
-<div class="overlay-clip-container-div">
+<div class="overlay-clip-container-div" draggable="false">
 
     <div class="overlay-clip-div clip-right-top"></div>
 
@@ -58,7 +58,7 @@ layout: primary
                                 <li>We care about our customers.</li>
                                 <li>We give more one on one support.</li>
                             </ul>
-                            <a href="{{site.urlPrefix}}about" type="button"
+                            <a href="{{site.urlPrefix}}about" type="button" rel="noopener noreferrer"
                                 class="mt-auto btn btn-lg mx-auto btn-block">Read More</a>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ layout: primary
                                 <li>We follow all laws and regulations.</li>
                                 <li>We always prioritize safety first.</li>
                             </ul>
-                            <a href="{{site.urlPrefix}}validation/certification" type="button"
+                            <a href="{{site.urlPrefix}}validation/certification" type="button" rel="noopener noreferrer"
                                 class="mt-auto btn btn-lg mx-auto btn-block">Read More</a>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ layout: primary
                                 <li>We sort out claims quickly.</li>
                                 <li>We pay close attention to detail.</li>
                             </ul>
-                            <a href="{{site.urlPrefix}}validation/insurance" type="button"
+                            <a href="{{site.urlPrefix}}validation/insurance" type="button" rel="noopener noreferrer"
                                 class="mt-auto btn btn-lg mx-auto btn-block">Read More</a>
                         </div>
                     </div>

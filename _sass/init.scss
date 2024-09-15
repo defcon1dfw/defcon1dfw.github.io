@@ -1,30 +1,27 @@
----
----
-
-// Main SCSS
+@charset "utf-8";
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 
 // Base SCSS
-$primaryImage: "{{ site.urlPrefix }}assets/img/polar-camo-hex.svg";
-@import "base/global-variables";
-@import "base/global-mixins";
-@import "base/global-tags";
+$primaryImage: "/assets/img/polar-camo-hex.svg";
+@import "base/global-variables",
+        "base/global-mixins",
+        "base/global-tags";
 // Layouts SCSS
-@import "layout/grid-sections";
-@import "layout/navigations";
+@import "layout/grid-sections",
+        "layout/navigations";
 // Components SCSS
 @import "components/animations";
 @import "components/cards";
 @import "components/banners";
 @import "components/clip-effects";
 
-
 .btn:hover {
   color: $primary-color;
   border-color: $accent-color;
 }
+
 .btn {
   @include flexium(center, center);
   @include flat-gold-gradient(45deg);

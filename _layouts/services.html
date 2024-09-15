@@ -25,7 +25,8 @@ layout: primary
                                 {% if item.path contains 'service/' %}
                                 <li>
                                     <a {% if page.name==item.name %} class="active pulse" {% else %} {% endif %}
-                                        href="{{ site.urlPrefix }}{{ item.path | remove : '.md' }}">{{ item.name |
+                                        href="{{ site.urlPrefix }}{{ item.path | remove : '.md' }}"
+                                        rel="noopener noreferrer">{{ item.name |
                                         remove :
                                         '.md' | capitalize }}</a>
                                 </li>
@@ -44,7 +45,8 @@ layout: primary
                                 {% if item.path contains 'validation' %}
                                 <li>
                                     <a {% if page.name==item.name %} class="active pulse" {% else %} {% endif %}
-                                        href="{{ site.urlPrefix }}{{ item.path | remove : '.md' }}">{{ item.name |
+                                        href="{{ site.urlPrefix }}{{ item.path | remove : '.md' }}"
+                                        rel="noopener noreferrer">{{ item.name |
                                         remove :
                                         '.md' | capitalize }}</a>
                                 </li>
