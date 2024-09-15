@@ -93,16 +93,3 @@ footer {
 .side-nav-content {
   position: relative;
 }
-
-.shrink-nav {
-  min-height: $shrink-nav-height;
-}
-
-.shrink-nav .navbar {
-  min-height: $shrink-nav-height;
-}
-
-.shrink-nav .navbar-brand {
-  max-height: $shrink-nav-height;
-  min-height: $shrink-nav-height;
-}

@@ -1,88 +1,90 @@
 <div class="sticky-container-div no-select-txt master-nav">
 
-  <nav class="navbar navbar-expand-lg navbar-{{ site.navTheme }} fixed-top no-select-txt">
+  <nav>
 
-    <div class="container">
+    <div class=" navbar navbar-expand-lg navbar-{{ site.navTheme }} fixed-top no-select-txt"">
+      <div class="container">
 
-      <a class="navbar-brand" href="{{site.urlPrefix}}" draggable="false">
-        <img src="{{site.urlPrefix}}{{site.navLogo}}" alt="LOGO IMG Not Found">
-      </a>
+        <a class="navbar-brand" href="{{site.urlPrefix}}" draggable="false">
+          <img src="{{site.urlPrefix}}{{site.navLogo}}" alt="LOGO IMG Not Found">
+        </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" draggable="false">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" draggable="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse noselect" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse noselect" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-          <li class="nav-item">
-            <a {% if page.name=="index.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
-              href="{{site.urlPrefix}}" draggable="false">Home <span class="bi-house"></span></a>
-          </li>
+            <li class="nav-item">
+              <a {% if page.name=="index.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
+                href="{{site.urlPrefix}}" draggable="false">Home <span class="bi-house"></span></a>
+            </li>
 
-          <li class="nav-item">
-            <a {% if page.name=="contact.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
-              href="{{site.urlPrefix}}contact" draggable="false">Contact <span class="bi-phone"></span> </a>
-          </li>
+            <li class="nav-item">
+              <a {% if page.name=="contact.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
+                href="{{site.urlPrefix}}contact" draggable="false">Contact <span class="bi-phone"></span> </a>
+            </li>
 
-          <li class="nav-item dropdown" draggable="false">
-            <a class="nav-link dropdown-toggle" {% if site.navTheme=="dark" %}id="navbarDarkDropdownMenuLink" {% else %}
-              id="navbarLightDropdownMenuLink" {% endif %} href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" draggable="false">
+            <li class="nav-item dropdown" draggable="false">
+              <a class="nav-link dropdown-toggle" {% if site.navTheme=="dark" %}id="navbarDarkDropdownMenuLink" {% else
+                %} id="navbarLightDropdownMenuLink" {% endif %} href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" draggable="false">
 
-              Services <span class="bi-wrench-adjustable-circle"></span>
-            </a>
-            <ul class="dropdown-menu dropdown-menu-{{ site.navTheme }}" {% if site.navTheme=="dark" %}
-              aria-labelledby="navbarDarkDropdownMenuLink" {% else %}aria-labelledby="navbarLightDropdownMenuLink" {%
-              endif %}>
-              {% for item in site.pages reversed %}
-              {% if item.path contains 'service/' %}
-              <li class="nav-item">
-                <a {% if page.name==item.name %} class="nav-link active pulse" {% else %}class='nav-link' {% endif %}
-                  href="{{ site.urlPrefix }}{{ item.path | remove : '.md' }}" draggable="false">{{
-                  item.name | remove : '.md' | capitalize }}</a>
-              </li>
-              {% endif %}
-              {% endfor %}
-            </ul>
-          </li>
+                Services <span class="bi-wrench-adjustable-circle"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-{{ site.navTheme }}" {% if site.navTheme=="dark" %}
+                aria-labelledby="navbarDarkDropdownMenuLink" {% else %}aria-labelledby="navbarLightDropdownMenuLink" {%
+                endif %}>
+                {% for item in site.pages reversed %}
+                {% if item.path contains 'service/' %}
+                <li class="nav-item">
+                  <a {% if page.name==item.name %} class="nav-link active pulse" {% else %}class='nav-link' {% endif %}
+                    href="{{ site.urlPrefix }}{{ item.path | remove : '.md' }}" draggable="false">{{
+                    item.name | remove : '.md' | capitalize }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+              </ul>
+            </li>
 
-          <li class="nav-item dropdown" draggable="false">
-            <a class="nav-link dropdown-toggle" {% if site.navTheme=="dark" %}id="navbarDarkDropdownMenuLink" {% else %}
-              id="navbarLightDropdownMenuLink" {% endif %} href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" draggable="false">
-              More
-            </a>
-            <ul class="dropdown-menu dropdown-menu-{{ site.navTheme }}" {% if site.navTheme=="dark"
-              %}aria-labelledby="navbarDarkDropdownMenuLink" {% else %}aria-labelledby="navbarLightDropdownMenuLink" {%
-              endif %}>
-              <li class="nav-item">
-                <a {% if page.name=="about.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
-                  href="{{site.urlPrefix}}about" draggable="false">About</a>
-              </li>
-              <li class="nav-item">
-                <a {% if page.name=="why.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
-                  href="{{site.urlPrefix}}why" draggable="false">Why Us?</a>
-              </li>
-              <li class="nav-item">
-                <a {% if page.name=="faq.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
-                  href="{{site.urlPrefix}}validation/certification" draggable="false">Certification</a>
-              </li>
-              <li class="nav-item">
-                <a {% if page.name=="faq.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
-                  href="{{site.urlPrefix}}faq" draggable="false">FAQ</a>
-              </li>
-            </ul>
-          </li>
+            <li class="nav-item dropdown" draggable="false">
+              <a class="nav-link dropdown-toggle" {% if site.navTheme=="dark" %}id="navbarDarkDropdownMenuLink" {% else
+                %} id="navbarLightDropdownMenuLink" {% endif %} href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" draggable="false">
+                More
+              </a>
+              <ul class="dropdown-menu dropdown-menu-{{ site.navTheme }}" {% if site.navTheme=="dark"
+                %}aria-labelledby="navbarDarkDropdownMenuLink" {% else %}aria-labelledby="navbarLightDropdownMenuLink"
+                {% endif %}>
+                <li class="nav-item">
+                  <a {% if page.name=="about.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
+                    href="{{site.urlPrefix}}about" draggable="false">About</a>
+                </li>
+                <li class="nav-item">
+                  <a {% if page.name=="why.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
+                    href="{{site.urlPrefix}}why" draggable="false">Why Us?</a>
+                </li>
+                <li class="nav-item">
+                  <a {% if page.name=="faq.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
+                    href="{{site.urlPrefix}}validation/certification" draggable="false">Certification</a>
+                </li>
+                <li class="nav-item">
+                  <a {% if page.name=="faq.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
+                    href="{{site.urlPrefix}}faq" draggable="false">FAQ</a>
+                </li>
+              </ul>
+            </li>
 
-        </ul>
+          </ul>
+        </div>
+
       </div>
 
-    </div>
-
-    <div class="call-now-banner-div">
-      <span class="bi-phone"></span> Call Now: 940-240-0911
+      <div class="call-now-banner-div">
+        <span class="bi-phone"></span> Call Now: 940-240-0911
+      </div>
     </div>
 
   </nav>
