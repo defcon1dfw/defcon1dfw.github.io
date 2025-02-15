@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 
 // Base SCSS
@@ -41,6 +41,21 @@ hr.rounded {
 }
 
 // Containers
+
+.container-100vw {
+  width: 100vw;
+}
+
+.home-dynamic-container {
+  max-width: 2000px;
+  margin: auto;
+}
+
+.home-dynamic-container img {
+  width: 100%;
+  height: inherit;
+  margin: auto;
+}
 
 .container p {
   @include boxing-mixin(0, 0);
