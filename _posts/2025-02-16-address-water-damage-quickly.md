@@ -42,7 +42,7 @@ Exposure to mold spores can trigger asthma attacks, cause chronic coughing, and 
 
 Water damage can ruin furniture, electronics, documents, and other personal belongings. Many materials, such as paper and fabric, absorb moisture quickly and can become breeding grounds for mold. If water damage is not promptly addressed, personal items may become unsalvageable.
 
-Drying affected areas fast with the proper equipment and removing moisture can prevent the loss of valuable possessions and sentimental items. Most resoration and mitigation companies will be equipped with industrial grade drying fans.
+Drying affected areas fast with the proper equipment and removing moisture can prevent the loss of valuable possessions and sentimental items. Most restoration and mitigation companies will be equipped with industrial grade drying fans.
 
 ## Final Thoughts
 
