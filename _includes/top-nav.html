@@ -18,7 +18,7 @@
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
             <li class="nav-item">
-              <a {% if page.name=="index.md" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
+              <a {% if page.layout=="home" %}class='nav-link active pulse' {% else %}class='nav-link' {% endif %}
                 href="{{site.url}}" draggable="false">Home <span class="bi-house"></span></a>
             </li>
 
