@@ -49,12 +49,3 @@ Drying affected areas fast with the proper equipment and removing moisture can p
 Quickly addressing water damage before mold becomes an issue is essential for protecting both property and health. Taking swift action can prevent costly repairs, maintain structural integrity, improve indoor air quality, and safeguard personal belongings.
 
 Homeowners and property managers should remain vigilant, conduct regular inspections, and immediately address any signs of water damage. By doing so, they can avoid the many risks associated with mold growth and ensure a safe, healthy living environment. If the worst-case scenario happens, fear not, for [your favorite restoration company]({{ site.url }}) is here to help. [We are only a call away]({{ site.url }}/contact).
-
-## Citations
-
-Links will be embedded in the article. Original sources and additional sources will be listed here for convenience.
-
-- Centers for Disease Control and Prevention. (2024). Safety guidelines: Reentering your Flooded Home. Centers for Disease Control and Prevention. [https://www.cdc.gov/floods/safety/reentering-your-flooded-home-safety.html?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fdisasters%2Ffloods%2Fafter.html](https://www.cdc.gov/floods/safety/reentering-your-flooded-home-safety.html?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fdisasters%2Ffloods%2Fafter.html)
-- Environmental Protection Agency. (2024). Flooding . EPA. [https://www.epa.gov/natural-disasters/flooding](https://www.epa.gov/natural-disasters/flooding)
-- Mold: Problems and solutions. FEMA.gov. (2023). [https://www.fema.gov/fact-sheet/mold-problems-and-solutions](https://www.fema.gov/fact-sheet/mold-problems-and-solutions)
-- Safety, Effectiveness Key Issues For Flood Damage Clean Up. NAHB. (n.d.). [https://www.nahb.org/other/consumer-resources/safety-effectiveness-key-issues-for-flood-damage-clean-up](https://www.nahb.org/other/consumer-resources/safety-effectiveness-key-issues-for-flood-damage-clean-up)
