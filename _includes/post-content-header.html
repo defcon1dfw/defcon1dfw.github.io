@@ -1,5 +1,5 @@
 <header id="post-content-header-id">
-    
+
     <div class="post-header">
 
         {% if page.title %}
@@ -8,19 +8,22 @@
         </div>
         {% endif %}
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+
+        <figure>
+            <img class="post-header-image" src="{{ site.urlPrefix }}{{ page.imgUrl }}" alt="Not Found">
+            {% if page.imgSrc %}
+            <figcaption>{{ page.imgCap }} <a href="{{ page.imgSrc }}">[Image Source]</a></figcaption>
+            {% endif %}
+        </figure>
         {% if page.date %}
-        <p>
-            <!--Author: <a href="/bio-{{ page.author | default: site.author | downcase  }}">{{ page.author | default: site.author }}</a> -->
-            Author: <a href="/about" rel="noopener noreferrer">{{ page.author | default: site.author }}</a>
-            <br>
-            Posted on {{ page.date | date: date_format }}
+        <span>
+            Written by <a href="/about" rel="noopener noreferrer">{{ page.author | default: site.author }}</a>, Posted {{ page.date | date: date_format }}
             {% if page.edit_date %}
-            <br>
             Last Updated on {{ page.edit_date | date: date_format }}
             {% endif %}
-        </p>
+        </span>
         {% endif %}
-        <img class="post-header-image" src="{{ site.urlPrefix }}{{ page.imgUrl }}" alt="Not Found">
+        <hr>
     </div>
 
 </header>

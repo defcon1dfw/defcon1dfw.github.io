@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Defcon1Dfw Blog"
 ---
 <div data-nosnippet>
