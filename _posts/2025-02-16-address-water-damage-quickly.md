@@ -44,7 +44,7 @@ Water can obviously ruin furniture, electronics, documents, and other personal b
 
 Even seemingly harmless objects, like a pile of cardboard in the garage leaning against a wall or a wet carpet from a leak, can lead to personal items becoming unsalvageable over time.
 
-Drying affected areas quickly with the proper equipment and removing moisture can help prevent the loss of valuable and sentimental items. Most restoration and mitigation companies should have the [necessary equipment]({{ site.url }}/blog/restoration/2025/02/16/address-water-damage-quickly.html) to handle the situation if it gets out of hand.
+Drying affected areas quickly with the proper equipment and removing moisture can help prevent the loss of valuable and sentimental items. Most restoration and mitigation companies should have the [necessary equipment]({{ site.url }}/blog/restoration/2025/02/17/equipment-used-in-mitigation.html) to handle the situation if it gets out of hand.
 
 ## Final Thoughts
 

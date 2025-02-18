@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Equipment Used in Water Mitigation
+title:  Equipment Used in Water Damage Mitigation
 date:   2025-02-17 11:00:00 -0400
 
 imgUrl: assets/img/post/2025/prototype-cover-gear-sm.jpg

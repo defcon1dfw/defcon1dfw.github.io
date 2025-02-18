@@ -55,7 +55,7 @@ $sticky-container-height: $nav-height + $call-now-height;
 
 // MUST import navigation before
 $home-banner-height: calc(100vh - #{$sticky-container-height});
-$page-banner-height: calc(14rem - #{$sticky-container-height});
+$page-banner-height: calc(14.5rem - #{$sticky-container-height});
 $banner-min-height: 500px;
 
 $footer-height: 25rem;
