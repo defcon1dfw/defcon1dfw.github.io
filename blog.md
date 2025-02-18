@@ -8,11 +8,13 @@ title: "Defcon1Dfw Blog"
         {% for post in site.posts limit: 10 %}
         <a class="post-card" href="{{ post.url }}">
             <!-- <div class="post-card-item" > -->
-            <div class="post-card-item-img" style="background-image: url({{ site.urlPrefix }}{{ post.imgUrl }})"></div>
+            <div class="post-card-item-img-container">
+            <div class="post-card-item-img" style="background-image: url({{ site.url }}{{ site.urlPrefix }}{{ post.imgUrl }})"></div>
+            </div>
             <!-- </div> -->
             <div class="post-card-text">
                 <p>{{ post.title }}</p>
-                <p class="post-card-date">{{ post.content | strip_html | truncate:150 }}</p>
+                <p class="post-card-desc">{{ post.content | strip_html | truncate:100 }}</p>
                 <p class="post-card-date">{{ post.date | date: '%-d %B %Y' }}</p>
             </div>
         </a>
