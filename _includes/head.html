@@ -12,11 +12,14 @@
     <meta property="og:image" content="{{ site.yt_img_url_base }}{{ page.videoId }}/0.jpg" />
     {% else %}
 
+    {% if page.image %}
+    {% else %}
         {% if page.imgUrl %}
-            <meta property="og:image" content="{{ site.url }}{{ site.urlPrefix }}{{ page.imgUrl }}" />
+        <meta property="og:image" content="{{ site.url }}{{ site.urlPrefix }}{{ page.imgUrl }}" />
         {% else %}
-            <meta property="og:image" content="{{ site.url }}{{ site.urlPrefix }}assets/img/primary-logo.png" />
+        <meta property="og:image" content="{{ site.url }}{{ site.urlPrefix }}assets/img/primary-logo.png" />
         {% endif %}
+    {% endif %}
 
     {% endif %}
     {% if page.author %}

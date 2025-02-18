@@ -4,6 +4,7 @@ title:  Benefits of Addressing Water Damage Quickly
 date:   2025-02-16 11:00:00 -0400
 
 imgUrl: assets/img/post/2025/industrial-water-damage-post.jpg
+image: assets/img/post/2025/industrial-water-damage-post.jpg
 imgSrc: https://www.pexels.com/photo/flooded-abandoned-room-10631759/
 imgCap: Water Damage
 
