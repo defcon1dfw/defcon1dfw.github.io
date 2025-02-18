@@ -23,7 +23,9 @@ Reliable equipment is crucial in mitigation and restoration because it ensures e
 
 If used well, the right equipment (either rented or owned) can improve the overall process, minimizing downtime for homeowners and businesses.
 
-### Moisture Meter
+This article will briefly go over common tools used on the job with the intention of going into more depth on each tool in future posts.
+
+### The Humble Moisture Meter
 
 {% include figure-container.html figImgUrl="/assets/img/equipment/moist-meter.jpg" %}
 
@@ -35,7 +37,9 @@ Despite its small size, this tool is one of the most—if not _the_ most—impor
 
 {% include figure-container.html figImgUrl="/assets/img/equipment/air-mover.jpg" %}
 
-High-powered fans that accelerate evaporation by directing airflow across wet surfaces, speeding up the drying process in water-damaged areas. Air movers are probably the most iconic part of mitigation, as a large scale operation might deploy several dozen (or many more) to speed up the drying process.
+Don't stick your finger in that!
+
+These are high-powered fans that accelerate evaporation by directing airflow across wet surfaces and water damaged property. Air movers could be the most iconic tool in mitigation, as a large scale operation might deploy several dozen (or many more) to speed up the drying process.
 
 These fans come in all shapes and sizes, some look like they came out of a sci-fi movie.
 
@@ -43,7 +47,7 @@ These fans come in all shapes and sizes, some look like they came out of a sci-f
 
 {% include figure-container.html figImgUrl="/assets/img/equipment/flood-extractor.jpg" %}
 
-A flood extractor is a specialized vacuum system designed to extract large amounts of standing water from carpets, floors, and other surfaces after flooding or leaks.
+A flood extractor is a specialized vacuum system designed to remove large amounts of standing water from a variety of surfaces after flooding or leaks.
 
 Flood extractors come in different types, including portable (like the picture) and truck-mounted units, depending on the scale of the cleanup.
 
@@ -53,7 +57,9 @@ Flood extractors come in different types, including portable (like the picture) 
 
 This isn't your grandma's typical dehumidifier.
 
-As the name suggests, this machine reduces humidity by extracting moisture from the air, cooling it, and collecting the condensation. Like air movers, it helps prevent mold growth and accelerates the drying process in water-damaged spaces. By maintaining optimal humidity levels of indoor air, dehumidifiers help protect structural materials and furnishings from, you guessed it, moisture-related damage.
+As the name suggests, this machine reduces humidity by extracting moisture from the air, cooling it, and collecting the condensation. Like air movers, it helps prevent mold growth and accelerates the drying process.
+
+By maintaining optimal humidity levels of indoor air, dehumidifiers help protect structural materials and furnishings from, you guessed it, moisture-related damage.
 
 ### HEPA Air Scrubber
 
