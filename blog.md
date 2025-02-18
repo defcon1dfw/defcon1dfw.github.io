@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: "Defcon1Dfw Blog"
+title: "Blog"
 ---
 
-<div class="blog-card-container">
+<div class="blog-card-container" data-nosnippet>
     <div class="blog-card-container-a">
         {% for post in site.posts limit: 10 %}
         <a class="post-card" href="{{ post.url }}">
