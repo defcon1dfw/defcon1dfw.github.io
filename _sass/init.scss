@@ -63,7 +63,7 @@ hr.rounded {
 }
 .read-container {
   @include boxing-mixin(0.5rem, 0, auto);
-  max-width: 56.25rem;
+  max-width: 56rem;
 }
 .read-container h1, h2, h3, h4, h5 {
   @include heading-padding();
@@ -71,6 +71,19 @@ hr.rounded {
 
 .flex-shrink-0 a {
   font-size: 1.4rem !important;
+}
+
+.figure-container {
+  width: 100%;
+  height: auto;
+  @include flexium(center, center);
+}
+.figure-container img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: auto;
+  border: 1px black;
 }
 
 // -------------------------------------

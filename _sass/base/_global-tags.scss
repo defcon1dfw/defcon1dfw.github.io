@@ -29,11 +29,13 @@ h4,
 h5,
 h6 {
     @include fontify();
+    padding-bottom: 5px;
 }
 
 h1,
 h2 {
     color: $tri-accent-color;
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -55,7 +57,10 @@ a:hover {
 }
 p,
 li {
+    text-rendering: optimizeLegibility;
     color: $tri-color;
-    font-size: 1.25rem;
+    font-size: 20px;
+    line-height: 1.75;
+    font-family: Arial, Helvetica, sans-serif;
     // list-style-image:url('/assets/img/247-sm.png');
 }
