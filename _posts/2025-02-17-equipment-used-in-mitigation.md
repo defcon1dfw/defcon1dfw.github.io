@@ -30,7 +30,7 @@ This article will briefly go over common tools used on the job with the intentio
 
 {% include figure-container.html figImgUrl="/assets/img/equipment/moist-meter.jpg" %}
 
-The aptly named [moisture meter](http://www.restorationindustry.org/restoration-blog/top-tips-moisture-meter-use-water-mitigation) is a device used to measure moisture levels in materials such as wood, drywall, and concrete.
+The aptly named [moisture meter](http://www.restorationindustry.org/restoration-blog/top-tips-moisture-meter-use-water-mitigation) is a device used to measure moisture levels in materials such as wood and drywall.
 
 Despite its small size, this tool is one of the most—if not _the_ most—important devices for water mitigation jobs. Without it, determining whether an area is fully dried or detecting hidden moisture within layered structures and behind walls becomes significantly more challenging.
 
