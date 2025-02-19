@@ -7,13 +7,11 @@ title: "Restoration And Reconstruction"
 
 <div id="restoration-id" markdown=1>
 
-## {{ page.title }}
+## Repair, Restore, and Reconstruct
 
-Time lost at your business because of a disaster leads to lost revenue and productivity. Our specialists are able to quickly get you back on your feet. When an emergency arises at your home or business, count on {{ site.dbaOneName }} {{ site.dbaTwoName }}.
+Once the mitigation process for your property is complete, our reconstruction team can seamlessly step in to make any necessary repairs, including replacing flooring, cabinets, drywall, painting, fixtures, and structural components. If your home or business has suffered water, mold, or fire damage, you can trust {{ site.dbaOneName }} {{ site.dbaTwoName }} for all your restoration needs.
 
-## Repairs, Restore, and Reconstruct
-
-Once the cleaning and drying process is complete, our construction team can seamlessly step in to make any necessary repairs to your affected space, such as the replacement of flooring, cabinets, drywall, painting, fixtures, and structural repairs. If you have suffered water mold or fire damage, trust {{ site.dbaOneName }} {{ site.dbaTwoName }} for all your restoration needs.
+Our experienced professionals ensure that every detail is handled with care, restoring your space to its original condition or better. From minor repairs to extensive reconstruction, we are committed to delivering high-quality results and a stress-free restoration process.
 
 ## Insurance
 

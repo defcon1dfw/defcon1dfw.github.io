@@ -1,27 +1,27 @@
 ---
 layout: legal
 title: "Privacy Policy"
-edit_date: 2022-02-18 19:41:52
+edit_date: 2025-02-18 08:06:00
 categories: legal
 ---
 
-## We use cookies to enable you to have a better experience with our content.
+## Use of Cookies and Privacy Policy Overview
 
-This Privacy Policy describes our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+This Privacy Policy outlines our practices regarding the collection, use, and disclosure of your information when you access and use our services. It also provides information about your privacy rights and how the law safeguards your personal data.
 
-We use your personal data to provide and improve the Service. By using this service, you agree to the collection and use of information in accordance with this Privacy Policy.
+We collect and utilize your personal data to provide and enhance our services. By using this service, you consent to the collection and use of information in accordance with this Privacy Policy.
 
 ## Google Analytics and Google Ads
 
-Google Analytics mainly uses first-party cookies to report on visitor (aka. user) interactions on Google Analytics customers’ websites. Users may disable cookies or delete any individual cookie.
+Google Analytics primarily uses first-party cookies to report on user interactions with websites that utilize Google Analytics. Users have the option to disable cookies or delete individual cookies.
 
-In addition, Google Analytics supports an optional browser add-on that – once installed and enabled – disables measurement by Google Analytics for any site a user visits. Note that this add-on only disables Google Analytics measurement.
+If a site or application integrates Google Analytics with other Google Advertising products, such as AdWords, additional advertising identifiers may be collected.
 
-Where a site or app uses Google Analytics for Apps or the Google Analytics for Firebase SDKs, Google Analytics collects an app-instance identifier — a randomly generated number that identifies a unique installation of an App. Whenever a user resets their Advertising Identifier (Advertising ID on Android, and ID for Advertisers on iOS), the app-instance identifier is also reset.
+It is up to users of Google to opt out of this feature and manage their cookie settings through the Ads Settings. For more information, please refer to Google's support documentation.
 
-Where sites or apps have implemented Google Analytics with other Google Advertising products, like AdWords, additional advertising identifiers may be collected. Users can opt-out of this feature and manage their settings for this cookie using the Ads Settings. Learn more
+Google Analytics also collects Internet Protocol (IP) addresses for the purpose of providing and securing our services and to give website owners insights into the geographical origin of their users (known as “IP geolocation”).
 
-Google Analytics also collects Internet Protocol (IP) addresses to provide and protect the security of the service, and to give website owners a sense of which country, state, or city in the world their users come from (also known as “IP geolocation”). Google Analytics provides a method to mask IPs that are collected (detailed below) but note that website owners have access to their users’ IP addresses even if the website owners do not use Google Analytics.
+Google Analytics offers a method for masking IP addresses; however, website owners still have access to user IP addresses even if they do not utilize Google Analytics.
 
 ## Retention of Your Personal Data
 

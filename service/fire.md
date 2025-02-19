@@ -7,32 +7,16 @@ title: "Fire and Smoke Damage Restoration"
 
 <div markdown=1>
 
-## {{ page.title }}
+## When Fire Wreaks Havoc
 
-When a fire damages your home or business {{ site.dbaOneName }} {{ site.dbaTwoName }} is at maximum readiness 24/7 for your emergency. We are ready to take your call, day or night.
+After a fire damages your home or business, its lingering effects can quickly spread, leading to further damage to your belongings and property. This type of incident can be both financially and emotionally devastating, and the situation can worsen if you don’t contact a professional restoration service promptly.
 
-## When Fire Damage Wreaks Havoc
+Smoke and soot residues can contain toxic chemicals and lingering odors that pose serious health risks, especially for those with respiratory conditions. Additionally, smoke particles can seep into walls, furniture, and ventilation systems, causing long-term damage if not properly cleaned.
 
-After a fire has caused damage to your home or business, its residual effects can spread quickly, causing significant additional damage to your belongings and property. This can be a financially and emotionally devastating incident that could become worse if you don't get in touch with a professional restoration service.
+## Comprehensive Fire Restoration Services
 
-### Comprehensive Fire Restoration Services
+Acting quickly can help minimize the extent of the damage and speed up the restoration process. A professional team will assess the damage, provide the right solutions, and mitigate the damage done to your property with expertise and care.
 
-Our fire restoration services include cleaning and removing smoke damage, making structural repairs, and cleaning and protecting your company’s belongings. Many fire damages are also accompanied by losses due to water and chemicals from firefighting efforts. We provide water damage cleanup, drying, and restoration services.
-
-## Steps For Fire Restoration
-
-1. Assess and Isolate issues to implement the most efficient process.
-2. Get the official go-ahead from a licensed authority.
-3. Security and boarding of property and debris removal.
-4. Demolition, water mitigation and dry out.
-5. Clean-up and smoke removal.
-6. Construction and restoration.
-
-## Why Call Us For Fire Damage Repairs?
-
-- We respond 24/7 and work quickly to secure your home.
-- We can work with your [insurance]({{ site.urlPrefix }}validation/insurance) company to settle claims quickly.
-- We are experienced and certified.
-- We are local and Veteran owned.
+{{ site.dbaOneName }}{{ site.dbaTwoName }}'s fire restoration services include removing smoke damage, making structural repairs, and cleaning and protecting your company’s belongings. In many cases, fire damage is also accompanied by water and chemical damage from firefighting efforts. We offer comprehensive [water damage]({{ site.url }}/service/water) cleanup, drying, and restoration services to address these issues. Our goal is to restore your property as quickly and efficiently as possible, minimizing downtime and further damage.
 
 </div>

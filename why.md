@@ -17,14 +17,14 @@ Understanding the impact property damage can have on you and your family is para
 
 ## Passion And Empathy
 
-We ourselves have been a victim to a fire and a flood. Restoring your property as quickly as possible and staying accountable for the quality of work and cleanliness of the job site rank foremost in our standards. We are certified IICRC experts in the systems and products necessary to accomplish restoration in the best way.
+**We have personally experienced the devastation of both a fire and a flood.** As a result, our top priority is to restore your property as quickly as possible while maintaining the highest standards of workmanship and ensuring the job site remains clean. We understand the emotional and financial stress these disasters cause, which is why we are committed to providing compassionate, reliable service every step of the way.
 
 ## Experience And Knowledge
 
-We pride ourselves on extensive knowledge in the insurance industry as well. By completing most of each project from start to finish we are able to minimize overhead and complete your project at the lowest possible cost and in the shortest amount of time. This sets us apart from the large, nationally run competition.
+We pride ourselves on extensive knowledge in the [insurance]({{ site.url }}/validation/insurance) industry as well. By ensuring the completion each project from start to finish while also staying in touch with insruance companies we are able to minimize overhead and complete your project at the lowest possible cost and in the shortest amount of time.
 
-We are committed to being available when you need us most in an emergency. Our primary goal is providing you with maximum quality and customer service at your residence or commercial property. Read about us [here]({{ site.urlPrefix }}about) to learn more about our business, and check out our FAQ page [here]({{ site.urlPrefix }}faq) for more questions you might have.
+We are committed to being available when you need us most in an emergency. Our primary goal is providing you with maximum quality and customer service at your residence or commercial property.
+
+Read about us [here]({{ site.urlPrefix }}about) to learn more about our business, and check out our FAQ page [here]({{ site.urlPrefix }}faq) for more questions you might have.
 
 </div>
-
-

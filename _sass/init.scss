@@ -83,7 +83,6 @@ hr.rounded {
   padding-bottom: 10px;
   width: 100%;
   height: auto;
-  border: 1px black;
 }
 
 // -------------------------------------
@@ -99,9 +98,7 @@ hr.rounded {
     border: none;
   }
   // _grid-sections.scss
-  // @include dynamic-images-collapse();
   @include dynamic-grids-collapse();
-  // @include dynamic-height(auto, auto);
 }
 
 .main-container {

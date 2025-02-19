@@ -87,7 +87,7 @@
 }
 
 .blog-card-container {
-    max-width: 1200px;
+    max-width: 1800px;
     align-items: center;
     justify-content: center;
 
@@ -106,8 +106,7 @@
 }
 
 .post-card p {
-    // font-weight: bold;
-    padding: 15px;
+    padding: 0 15px 5px 15px;
     margin: 0;
 }
 
@@ -120,7 +119,7 @@
 }
 
 .post-card-text {
-    height: 230px;
+    height: 200px;
     width: 100%;
 }
 
