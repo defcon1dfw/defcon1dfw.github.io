@@ -42,7 +42,13 @@ Add insulation to attics, basements and crawl spaces. Proper insulation in gener
 
 ## Additional Precautions
 
-It's always a good idea to know the location of your home's main water valve. Even if your home never experiences deep freeze, as you can reduce any potential water damage by shutting off the water. Working quickly can help minimize damage and prevent expensive repairs.
+It's always a good idea to know the location of your home's main water valve. Even if your home never experiences deep freeze, as you can reduce any potential water damage by shutting off the water.
+
+We **highly recommend** picking up a 'water shut off wrench' and a 'manhole cover remover'. While you may be able to get around pulling the manhole cover off with bruite force, it can be extremely difficult to turn the main valve off without using one of these wrenches. (especially when its really cold)
+
+{% include figure-container.html figImgUrl="/assets/img/equipment/water-shutof-wrench.jpg" %}
+
+As always, like the tool above, working quickly with the right equipment can help minimize damage and prevent expensive repairs.
 
 ## Final Thoughts
 
