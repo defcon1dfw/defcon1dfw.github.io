@@ -15,7 +15,7 @@ categories:
 
 Water damage is common in homes and commercial buildings, often resulting from leaks, flooding, storms, or excess humidity.
 
-While it may seem minor at first, if left untreated, water damage can lead to severe structural issues, financial burdens, and [health risks](https://www.cdc.gov/floods/safety/reentering-your-flooded-home-safety.html?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fdisasters%2Ffloods%2Fafter.html). One of the most concerning consequences of water damage is [mold growth]({{ site.url }}/service/mold).
+While it may seem minor at first if left untreated, water damage can lead to severe structural issues, financial burdens, and [health risks](https://www.cdc.gov/floods/safety/reentering-your-flooded-home-safety.html?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fdisasters%2Ffloods%2Fafter.html). One of the most concerning consequences of water damage is [mold growth]({{ site.url }}/service/mold).
 
 [Mold thrives in damp environments](https://www.fema.gov/fact-sheet/mold-problems-and-solutions) and can cause significant damage to property and pose serious health risks to occupants. Taking proactive measures to address water damage before mold develops can save time and money and prevent potential health hazards.
 
@@ -41,7 +41,7 @@ Exposure to mold spores can trigger asthma attacks, cause chronic coughing, and 
 
 ## Preventing Damage to Personal Belongings
 
-Water can obviously ruin furniture, electronics, documents, and other personal belongings. What may not be as obvious is that many materials, such as paper and fabric, absorb moisture more quickly than others, allowing it to linger indoors. This creates a perfect breeding ground for mold.
+Water can ruin furniture, electronics, documents, and other personal belongings. What may not be as obvious is that many materials, such as paper and fabric, absorb moisture more quickly than others, allowing it to linger indoors. This creates a perfect breeding ground for mold.
 
 Even seemingly harmless objects, like a pile of cardboard in the garage leaning against a wall or a wet carpet from a leak, can lead to personal items becoming unsalvageable over time.
 
