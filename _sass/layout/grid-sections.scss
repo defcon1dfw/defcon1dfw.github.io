@@ -89,6 +89,7 @@
     grid: auto / auto;
     grid-gap: 0;
     height: auto;
+    flex-direction: column-reverse;
   }
   .test-grid-two {
     grid: auto auto / auto auto;
@@ -109,5 +110,9 @@
   .test-50-container img {
     min-width: 100vw;
     height: auto;
+  }
+
+  .side-nav-container {
+    width: 100%;
   }
 }

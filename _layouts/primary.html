@@ -1,29 +1,21 @@
 ---
 ---
-
 <!DOCTYPE html>
 <html lang="en">
-
 {% include head.html %}
-
 <body>
   <header id="primary-top-nav-header-id">
     {% include top-nav.html %}
   </header>
-
   <main>
     <div class="main-container">
       {{ content }}
     </div>
   </main>
-
   <footer id="primary-bot-nav-footer-id">
     {% include bottom-nav.html %}
     {% include cookie-consent.html %}
   </footer>
-
   <script type="text/javascript" src="{{ site.urlPrefix }}assets/js/script-loader.js"></script>
-
 </body>
-
 </html>
