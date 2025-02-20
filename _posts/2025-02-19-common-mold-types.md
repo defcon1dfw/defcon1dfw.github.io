@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Common Mold Types
+title:  Common Mold Genus Linked to Water Damage
 date:   2025-02-19 16:20:00 -0400
 
 imgUrl: assets/img/post/2025/moldy-wall.jpg
@@ -17,7 +17,7 @@ Mold is a type of fungus that thrives in moist environments. In man-made structu
 
 There are many types of mold, but some are far more prevalent than others in homes and buildings. Here are five common species of mold commonly found in homes and buildings:
 
-### ***Stachybotrys**
+### ***Stachybotrys***
 
 The species of mold know as [*Stachybotrys chartarum* (Black Mold)](https://www.cdc.gov/mold-health/data-research/facts-stats/index.html) is one of the most notorious and well-known molds. It has gained this reputation because it produces mycotoxins that can cause respiratory issues, fatigue, and skin irritation. This mold typically appears as a greenish-black substance with a grimy, slimy texture. Black mold thrives in damp environments with high cellulose content, such as drywall and wood after prolonged moisture exposure.
 
@@ -39,4 +39,4 @@ The [_Aspergillus_](https://www.mayoclinic.org/diseases-conditions/aspergillosis
 
 ## Final Thoughts
 
-Successful mold remediation involves accurately identifying the mold type, safely removing all contaminated materials, and thoroughly drying and treating the affected area to prevent regrowth. Maintaining proper ventilation and controlling moisture levels are essential to minimizing the risk of future mold infestations. Regular inspections and prompt repairs of leaks or water damage can further help prevent mold from returning.
+Successful mold remediation involves identifying the mold, safely removing all contaminated materials, and thoroughly drying and treating the affected area to prevent regrowth. Maintaining proper ventilation and controlling moisture levels are essential to minimizing the risk of future mold infestations. Regular inspections and prompt repairs of leaks or water damage can further help prevent mold from returning.
