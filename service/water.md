@@ -9,7 +9,7 @@ title: "Water Damage Restoration"
 
 ## When Water Disaster Strikes
 
-Water disaster can strke your home or business anytime. We know that water damage emergencies in your home can be traumatic for you and your family. It’s critical for professionals to immediately assess, mitigate, and fix the problem before additional damage can occur.
+Water disaster can impact your home or business anytime. We know that water damage emergencies in your home can be traumatic for you and your family. It’s critical for professionals to immediately assess, mitigate, and fix the problem before additional damage can occur.
 
 Mitigation is the step taken as a home, or business, owner to prevent water damage from worsening. Rapid response and assessment are vital to slowing damage and preventing secondary damage from occurring.
 
