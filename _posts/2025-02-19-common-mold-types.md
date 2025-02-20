@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Common Mold Genus Linked to Water Damage
-date:   2025-02-19 16:20:00 -0400
+title:  Common Mold Types Linked to Water Damage
+date:   2025-02-19 15:10:00 -0400
 
 imgUrl: assets/img/post/2025/moldy-wall.jpg
 image: assets/img/post/2025/moldy-wall.jpg
@@ -10,7 +10,7 @@ imgCap: Moldy Mold
 
 categories:
   - blog
-  - advice
+  - restoration
 ---
 
 Mold is a type of fungus that thrives in moist environments. In man-made structures, if left untreated alongside water damage, it can lead to structural deterioration and pose health risks, including respiratory issues and allergic reactions, especially for immunocompromised individuals. Effective remediation involves **identifying the mold**, safely removing contaminated materials, and implementing strategies to prevent future growth. The techniques used for mold remediation can vary based on the mold type, severity of the infestation, and the materials affected.
