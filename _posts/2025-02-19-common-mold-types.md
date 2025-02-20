@@ -19,7 +19,7 @@ There are many types of mold, but some are far more prevalent than others in hom
 
 ### ***Stachybotrys***
 
-The species of mold know as [*Stachybotrys chartarum* (Black Mold)](https://www.cdc.gov/mold-health/data-research/facts-stats/index.html) is one of the most notorious and well-known molds. It has gained this reputation because it produces mycotoxins that can cause respiratory issues, fatigue, and skin irritation. This mold typically appears as a greenish-black substance with a grimy, slimy texture. Black mold thrives in damp environments with high cellulose content, such as drywall and wood after prolonged moisture exposure.
+The species of mold known as [*Stachybotrys chartarum* (Black Mold)](https://www.cdc.gov/mold-health/data-research/facts-stats/index.html) is one of the most notorious and well-known molds. It has gained this reputation because it produces mycotoxins that can cause respiratory issues, fatigue, and skin irritation. This mold typically appears as a greenish-black substance with a grimy, slimy texture. Black mold thrives in damp environments with high cellulose content, such as drywall and wood after prolonged moisture exposure.
 
 ### ***Alternaria***
 
