@@ -1,6 +1,7 @@
 ---
 layout: services
 title: "Restoration And Reconstruction"
+image: assets/img/biohazard-sm.png
 ---
 
 <img style="width: 100%" src="{{ site.urlPrefix }}assets/img/biohazard-sm.png">

@@ -1,6 +1,7 @@
 ---
 layout: services
 title: "Fire and Smoke Damage Restoration"
+image: assets/img/fire-sm.png
 ---
 
 <img style="width: 100%" src="{{ site.urlPrefix }}assets/img/fire-sm.png">

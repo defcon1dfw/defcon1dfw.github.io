@@ -1,6 +1,7 @@
 ---
 layout: services
 title: Mold Damage Restoration
+image: assets/img/fungus-sm.png
 ---
 
 <img style="width: 100%" src="{{ site.urlPrefix }}assets/img/fungus-sm.png">

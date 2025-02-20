@@ -1,6 +1,7 @@
 ---
 layout: services
 title: "Water Damage Restoration"
+image: assets/img/water-sm.png
 ---
 
 <img style="width: 100%" src="{{ site.urlPrefix }}assets/img/water-sm.png">
