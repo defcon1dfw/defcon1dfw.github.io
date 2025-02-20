@@ -1,9 +1,5 @@
-<!-- <div style="position: relative;"> -->
-
+<!--googleoff: all-->
 <div class="container-fluid">
-
-  <!-- <section class="justify-content-center"> -->
-
   <div class="test-grid-two grid-top p-3 mx-auto">
 
     <div class="text-center" {% if page.is_post %} data-nosnippet="true" {% endif %}>
@@ -14,51 +10,40 @@
     </div>
 
     <div class="text-center">
-      <!--googleoff: all-->
-      <h4>Follow Us</h4>
-      <a href="https://facebook.com/{{ site.facebookUser }}"><span class="bi-facebook m-2" style="font-size: 2.2rem;"></span></a>
-      <a href="https://twitter.com/{{ site.xUser }}"><span class="bi-twitter-x m-2" style="font-size: 2.2rem;"></span></a>
-      <a href="https://instagram.com/{{ site.instagramUser }}"><span class="bi-instagram m-2" style="font-size: 2.2rem;"></span></a>
-      <a href="https://www.linkedin.com/company/{{ site.linkedinUser }}"><span class="bi-linkedin m-2" style="font-size: 2.2em;"></span></a>
-      <!--googleon: all-->
-    </div>
-
-    <div class="text-center">
-      <!--googleoff: all-->
       <h4>Website Info</h4>
       <ul class="list-unstyled mb-0">
-        <li class="m-2">
-          <a href="{{site.urlPrefix}}contact">Contact</a>
-        </li>
-        <li class="m-2">
-          <a href="{{site.urlPrefix}}about.html">About</a>
-        </li>
-        <li class="m-2">
-          <a href="{{site.urlPrefix}}legal/privacy-policy">Privacy</a>
-        </li>
+        <li class="m-2"><a href="{{site.urlPrefix}}contact">Contact</a></li>
+        <li class="m-2"><a href="{{site.urlPrefix}}about.html">About</a></li>
+        <li class="m-2"><a href="{{site.urlPrefix}}legal/privacy-policy">Privacy</a></li>
       </ul>
-      <!--googleon: all-->
     </div>
 
     <div class="text-center">
-      <h4>IICRC Certified!</h4>
+      <h4>IICRC Certified</h4>
       <a href="{{site.urlPrefix}}validation/certification"><img height="135px"
           src="{{site.urlPrefix}}assets/img/iicrc-certified-logo.png" alt="LOGO IMG Not Found"></a>
     </div>
 
+    <div class="text-center">
+      <h4>Follow Us</h4>
+      <a href="https://facebook.com/{{ site.facebookUser }}"><span class="bi-facebook m-2"
+          style="font-size: 2.2rem;"></span></a>
+      <a href="https://twitter.com/{{ site.xUser }}"><span class="bi-twitter-x m-2"
+          style="font-size: 2.2rem;"></span></a>
+      <a href="https://instagram.com/{{ site.instagramUser }}"><span class="bi-instagram m-2"
+          style="font-size: 2.2rem;"></span></a>
+      <a href="https://www.linkedin.com/company/{{ site.linkedinUser }}"><span class="bi-linkedin m-2"
+          style="font-size: 2.2em;"></span></a>
+    </div>
+
   </div>
-
-  <!-- </section> -->
-
 </div>
-<!--googleoff: all-->
+
 <div data-nosnippet="true" class="text-center p-4">
   {{ site.copy }}
   <p class="footer-disclaimer">
-    {{ site.dbaOneName }} {{ site.dbaTwoName }} is not a registered financial advisor. We do not take your specific needs or 
-    objectives into account until after we have assesed your property and or property damages.
+    {{ site.dbaOneName }} {{ site.dbaTwoName }} is not a registered financial advisor. We do not take your specific
+    needs or objectives into account until after we have assesed your property and or property damages.
   </p>
 </div>
 <!--googleon: all-->
-
-<!-- </div> -->

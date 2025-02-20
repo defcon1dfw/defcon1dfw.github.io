@@ -20,13 +20,16 @@ $primaryImage: "/assets/img/polar-camo-hex.svg";
         "components/clip-effects",
         "components/headers";
 
+.btn-flex {
+  @include flexium(center, center);
+}
+
 .btn:hover {
   color: $primary-color;
   border-color: $accent-color;
 }
 
-.btn {
-  @include flexium(center, center);
+.btn, .btn-flex {
   @include flat-gold-gradient(45deg);
   border-radius: 5px;
   color: $secondary-accent-color;

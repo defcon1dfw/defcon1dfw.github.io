@@ -5,7 +5,7 @@
 }
 
 .spin:hover {
-    @include all-browser-animation(spin, 10s, infinite);
+    @include all-browser-animation(spin, 11s, infinite);
 }
 
 .flip-y:hover {

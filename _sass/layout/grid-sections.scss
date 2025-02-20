@@ -83,9 +83,7 @@
 }
 
 @mixin dynamic-grids-collapse() {
-  .test-grid,
-  .test-grid-one,
-  .test-grid-three {
+  .test-grid {
     grid: auto / auto;
     grid-gap: 0;
     height: auto;

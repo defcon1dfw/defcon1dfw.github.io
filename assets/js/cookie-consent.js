@@ -1,4 +1,4 @@
-const consentValue = "website-consent-02-18-2022";
+const consentValue = "defcon1dfw-Site-Consent-2025";
 
 setTimeout(function checkConsent() {
     try {
