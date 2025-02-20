@@ -18,9 +18,9 @@ We will contact you as soon as possible!
 
 ## Follow Us
 
-<a href="https://facebook.com/defcon1dfw"><span class="bi-facebook m-2" style="font-size: 4rem;"></span></a>
-<a href="https://twitter.com/defcon1dfw"><span class="bi-twitter-x m-2" style="font-size: 4rem;"></span></a>
-<a href="https://instagram.com/defcon1dfw"><span class="bi-instagram m-2" style="font-size: 4rem;"></span></a>
-<a href="https://www.linkedin.com/company/defcon1dfw"><span class="bi-linkedin m-2" style="font-size: 4rem;"></span></a>
+<a href="https://facebook.com/{{ site.facebookUser }}"><span class="bi-facebook m-2" style="font-size: 4rem;"></span></a>
+<a href="https://twitter.com/{{ site.xUser }}"><span class="bi-twitter-x m-2" style="font-size: 4rem;"></span></a>
+<a href="https://instagram.com/{{ site.instagramUser }}"><span class="bi-instagram m-2" style="font-size: 4rem;"></span></a>
+<a href="https://www.linkedin.com/company/{{ site.linkedinUser }}"><span class="bi-linkedin m-2" style="font-size: 4rem;"></span></a>
 
 ---

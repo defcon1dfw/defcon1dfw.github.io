@@ -6,6 +6,11 @@ url: "https://defcon1dfw.com" # the base hostname & protocol for your site, e.g.
 urlPrefix: /
 domainName: defcon1dfw.com
 
+facebookUser: defcon1dfwrestoration
+linkedinUser: defcon1dfw
+xUser: defcon1dfw
+instagramUser: defcon1dfw
+
 navTheme: dark
 mainTheme: light
 navLogo: assets/img/primary-logo.png
