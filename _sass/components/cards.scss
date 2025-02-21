@@ -65,8 +65,8 @@
     width: 221px;
     height: 120px;
 
-    width: clamp(10rem, 10vw, 14rem);
-    height: clamp(10rem, 10vw, 14rem);
+    width: clamp(10.2rem, 10vw, 14rem);
+    height: clamp(8rem, 10vw, 14rem);
     font-weight: 600;
 }
 .sevice-home-options-container a:hover .service-home-icon-text,
@@ -80,7 +80,7 @@
     color: $secondary-accent-color;
 }
 .service-home-icon {
-    font-size: 4em;
+    font-size: 3.5em;
 }
 .service-home-icon-text {
     font-size: 1.25rem;

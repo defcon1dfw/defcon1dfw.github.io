@@ -24,6 +24,7 @@ $primaryImage: "/assets/img/polar-camo-hex.svg";
   @include flexium(center, center);
 }
 
+.btn-flex:hover,
 .btn:hover {
   color: $primary-color;
   border-color: $accent-color;
@@ -34,7 +35,7 @@ $primaryImage: "/assets/img/polar-camo-hex.svg";
   border-radius: 5px;
   color: $secondary-accent-color;
   font-family:"Chakra Petch", sans-serif;
-  font-size: 16pt;
+  font-size: 17pt;
   font-weight: bolder;
 }
 
