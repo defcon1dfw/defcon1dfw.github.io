@@ -16,17 +16,10 @@ title: Locations
 <li><p>Bartonville</p></li>
 <li><p>Northlake</p></li>
 <li><p>Denton</p></li>
-<li><p>North Richland Hills</p></li>
 <li><p>Burleson</p></li>
-</ul>
-
-<ul class="flexium-auto-item" >
-<li><p>Dallas</p></li>
-<li><p>Fort Worth</p></li>
 <li><p>Arlington</p></li>
 <li><p>Plano</p></li>
 <li><p>Irving</p></li>
-<li><p>Garland</p></li>
 </ul>
 
 <ul class="flexium-auto-item" >
@@ -36,13 +29,9 @@ title: Locations
 <li><p>Mesquite</p></li>
 <li><p>Carrollton</p></li>
 <li><p>Lewisville</p></li>
-</ul>
-
-<ul class="flexium-auto-item" >
 <li><p>Flower Mound</p></li>
 <li><p>Mansfield</p></li>
-<li><p>Allen</p></li>
-<li><p>Euless</p></li>
 </ul>
 
 </div>
+
