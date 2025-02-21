@@ -7,6 +7,7 @@ title: Contact Us
 ---
 - Call Us: <strong>940-240-0911</strong>
 - Email Us: <strong><a href="mailto:greg@defcon1dfw.com">greg@defcon1dfw.com</a></strong>
+- See Locations: <strong><a href="{{ site.urlPrefix }}validation/locations">HERE</a><strong>
 
 ---
 
