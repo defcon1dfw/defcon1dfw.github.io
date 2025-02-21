@@ -23,14 +23,13 @@ $primaryImage: "/assets/img/polar-camo-hex.svg";
 .btn-flex {
   @include flexium(center, center);
 }
-
 .btn-flex:hover,
 .btn:hover {
   color: $primary-color;
   border-color: $accent-color;
 }
-
-.btn, .btn-flex {
+.btn,
+.btn-flex {
   @include flat-gold-gradient(45deg);
   border-radius: 5px;
   color: $secondary-accent-color;

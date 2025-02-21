@@ -51,6 +51,40 @@
 
 // Option Badge cards
 
+@mixin fire {
+    animation: burn 1.5s linear infinite alternate;
+  }
+  
+  @keyframes burn {
+    from { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .4em #ffae34, .2em -.3em .3em #ec760c, -.2em -.4em .4em #cd4606, .1em -.5em .7em #973716, .1em -.7em .7em #451b0e; }
+    45%  { text-shadow: .1em -.2em .5em #fefcc9, .15em 0 .4em #feec85, -.1em -.25em .5em #ffae34, .15em -.45em .5em #ec760c, -.1em -.5em .6em #cd4606, 0 -.8em .6em #973716, .2em -1em .8em #451b0e; }
+    70%  { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .6em #ffae34, .2em -.3em .4em #ec760c, -.2em -.4em .7em #cd4606, .1em -.5em .7em #973716, .1em -.7em .9em #451b0e; }
+    to   { text-shadow: -.1em -.2em .6em #fefcc9, -.15em 0 .6em #feec85, .1em -.25em .6em #ffae34, -.15em -.45em .5em #ec760c, .1em -.5em .6em #cd4606, 0 -.8em .6em #973716, -.2em -1em .8em #451b0e; }
+  }
+
+.options-container a {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    @include gridium(center, center);
+    @include rounded-border();
+    @include all-browser-animation(pulse, 2s, infinite);
+    @include flat-gold-gradient(45deg);
+    @include boxing-mixin(0, 0, auto);
+
+    width: 230px;
+    height: 90px;
+
+    padding: 1px;
+    font-weight: 600;
+}
+
+.options-container a:hover .service-home-icon-text {
+    @include fire();
+    color: white;
+}
+
 .sevice-home-options-container a {
 
     display: flex;
@@ -65,8 +99,10 @@
     width: 221px;
     height: 120px;
 
-    width: clamp(10.2rem, 10vw, 14rem);
-    height: clamp(8rem, 10vw, 14rem);
+    padding: 1px;
+
+    width: clamp(10rem, 10vw, 12rem);
+    height: clamp(8rem, 10vw, 10rem);
     font-weight: 600;
 }
 .sevice-home-options-container a:hover .service-home-icon-text,
@@ -80,7 +116,7 @@
     color: $secondary-accent-color;
 }
 .service-home-icon {
-    font-size: 3.5em;
+    font-size: 4rem;
 }
 .service-home-icon-text {
     font-size: 1.25rem;
