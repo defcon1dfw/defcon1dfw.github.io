@@ -91,6 +91,7 @@
 }
 .flexium-start {
   @include flexium(start, start);
+  flex-wrap: wrap;
 }
 
 .flexium-auto-item {

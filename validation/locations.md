@@ -7,9 +7,7 @@ title: Locations
 <a href="{{ site.dfwGoogleMap }}" target="_blank" rel="noopener noreferrer"><img style="width: 100%" src="{{ site.urlPrefix }}assets/img/dfw-map.jpg"></a>
 </div>
 
----
-
-We proudly serve the Dallas-Fort Worth Texas area, providing our services to a wide range of communities!
+<p>We proudly serve the Dallas-Fort Worth Texas area, providing our services to a wide range of communities!</p>
 
 <div class="flexium-start">
 
