@@ -21,7 +21,7 @@ We will contact you as soon as possible!
 
 <a href="https://facebook.com/{{ site.facebookUser }}"><span class="bi-facebook m-2" style="font-size: 4rem;"></span></a>
 <a href="https://twitter.com/{{ site.xUser }}"><span class="bi-twitter-x m-2" style="font-size: 4rem;"></span></a>
-<a href="https://instagram.com/{{ site.instagramUser }}"><span class="bi-instagram m-2" style="font-size: 4rem;"></span></a>
-<a href="https://www.linkedin.com/company/{{ site.linkedinUser }}"><span class="bi-linkedin m-2" style="font-size: 4rem;"></span></a>
+<!-- <a href="https://instagram.com/{{ site.instagramUser }}"><span class="bi-instagram m-2" style="font-size: 4rem;"></span></a>
+<a href="https://www.linkedin.com/company/{{ site.linkedinUser }}"><span class="bi-linkedin m-2" style="font-size: 4rem;"></span></a> -->
 
 ---
