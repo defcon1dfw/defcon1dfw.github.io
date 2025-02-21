@@ -30,3 +30,5 @@ plugins:
 yt_url_base: "https://youtube.com/"
 yt_url_watch: "https://www.youtube.com/embed/"
 yt_img_url_base: "https://img.youtube.com/vi/"
+
+dfwGoogleMap: "https://www.google.com/maps/place/Dallas-Fort+Worth+Metropolitan+Area,+TX/@32.7413461,-97.6229323,9z/data=!4m6!3m5!1s0x864e82b81f3a3a2d:0x53724d9a808b8ce5!8m2!3d32.7078751!4d-96.9209135!16zL20vMDF3amYw"
