@@ -10,7 +10,7 @@ title: Contact Us
 - Email Us: <strong><a href="mailto:greg@defcon1dfw.com">greg@defcon1dfw.com</a></strong>
 - See Locations: <strong><a href="{{ site.urlPrefix }}validation/locations">HERE</a><strong>
 
-<strong>CALL NOW and get a free quote while our offer still stands!</strong>
+<!-- <strong>CALL NOW and get a free quote while our offer still stands!</strong> -->
 
 ---
 
